@@ -1,0 +1,20 @@
+{
+  "name": "Kolesa Dark Theme",
+  "description": "Just for me!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://kolesa.kz/*"
+      ],
+      "js": [
+        "js/kolesa.js"
+      ],
+      "css": [
+        "css/kolesa.css"
+      ]
+    }
+  ]
+}

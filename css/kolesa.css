@@ -1,0 +1,169 @@
+body {
+    background-color: #101010!important;
+    color: #dbdbdb!important;
+}
+.notes {
+    color: #919191!important;
+}
+.menu-container .header-menu-list {
+    background: #3d3d3d!important;
+}
+.vip-card {
+    color: #dbdbdb!important;
+}
+
+.offer__parameters dt {
+    background: unset!important;
+    color: #888b94;
+}
+.offer__parameters dd {
+    background: unset!important;
+    color: #c3c3c3!important;
+}
+
+.offer__title {
+    color: #858585!important;
+}
+.offer {
+    color: #cbcbcb !important;
+}
+.a-credit__amount.isHighlighted {
+    background-color: #ffd313;
+    color: #000;
+}
+.corp-projects__title {
+    color: #cbcbcb !important;
+}
+.offer__sidebar-contacts {
+    background: #3d3d3d!important;
+    border: 1px solid #f2f2f3!important;
+}
+.related {
+    background-color: #3b3b3b!important;
+    border-bottom: 1px solid rgba(28, 24, 25, .1)!important;
+    color: #000!important;
+    display: none!important;
+}
+.ui-footer {
+    background: #232323!important;
+    color: #888b94!important;
+    display: none!important;
+}
+.main-menu .isSelected .main-menu__label {
+    border-color: #2a81dd!important;
+    color: #afafaf!important;
+}
+.reader {
+    color: #bfbfbf!important;
+}
+.kl-ui-button--white {
+    background-color: #000!important;
+    color: #d1d1d1!important;
+}
+
+.price-bar__bar[data-v-390c22dc] {
+    border: 4px solid #000!important;
+}
+.calc-block__month-amount {
+    color: black;
+}
+.calc-block .form-control {
+    background-color: #4b4b4b!important;
+    color: #9f9f9f!important;
+}
+
+.main-logo img, .main-logo__link img {
+    -webkit-filter: invert(.75); /* safari 6.0 - 9.0 */
+    filter: invert(.75);
+}
+.mes-messages {
+    color: #bfbebf!important;
+}
+
+.mes-messages__container {
+    background: #353535!important;
+}
+.mes-messages__history-placeholder {
+    background: #393939!important;
+}
+.header, .footer {
+    background: #4d4d4d!important;
+}
+.message {
+    background: #060606!important;
+    color: darkgrey!important;
+}
+.message.isOwn {
+    background: #0e466d!important;
+}
+.mes-thread.isActive {
+    background: #535353!important;
+}
+.mes-ui-button--white {
+    background-color: #232323!important;
+}
+.cab-a__main {
+    background-color: #414040!important;
+    color: #e1e1e1!important;
+}
+.cab-a__pay {
+    #display: none!important;
+}
+.a-pay__item {
+    background: #393939!important;
+    color: #6b6b6b!important;
+}
+.cab-a__statistic {
+    background-color: #1c1c1c!important;
+}
+input {
+    color: #c3c3c3!important;
+    background: #000!important;
+}
+.ui-segmented__wrapper {
+    background-color: #7d7d7d!important;
+}
+.ui-segmented__item--active, .ui-segmented__item--active:hover {
+    background-color: #0e0e0e!important;
+    color: #c3c3c3!important;
+}
+.a-card {
+    background-color: unset!important;
+}
+.advert-note-editor {
+    background: #393939!important;
+    border: 2px solid #0e0e0e!important;
+}
+
+.my-favorite .advert-note-editor .content textarea {
+    background: #393939!important;
+    color: #a5a5a5!important;
+}
+.month-payment__amount {
+    color: black!important;
+}
+.favorite-title h1 {
+    color: #ebe4e4!important;
+}
+.search-block .main {
+    background: #4f4f4f!important;
+}
+.search-block .main .primary .advanced-section.active {
+    background: #393939!important;
+}
+.search-block .advanced-section {
+    color: #cfcfcf!important;
+}
+.a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
+    background: #9f9f9f;
+}
+.a-new-form .element-radio .radio-button input[type=radio]:checked+label, .advanced-section .element-radio .radio-button input[type=radio]:checked+label, .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label, .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
+    background-color: #ffd313;
+}
+.kl-ui-button:disabled, .kl-ui-button[disabled] {
+    color: #fff!important;
+    background-color: #000000!important;
+}
+.group--is-expanded, .FilterGroup.isExtended {
+    background-color: #272424!important;
+}
