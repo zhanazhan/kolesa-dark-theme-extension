@@ -266,3 +266,159 @@ footer.footer {
 .user-types__name-block p {
     color: #ffffff!important;
 }
+.offer__sidebar-item {
+    background-color: #434343!important;
+}
+.a-agent-options__item {
+    color: #9f9d9e!important;
+}
+.offer__sidebar-sticky {
+    background-image: none!important;
+}
+.offer__sidebar-sticky::after {
+    background: unset!important;
+}
+.offer__advert-short-info {
+    color: #ffffff!important;
+}
+.a-analytics-container .right .title {
+    color: #f1f1f1!important;
+}
+.a-analytics-container>div .header .title {
+    color: #a5a5a5!important;
+}
+.a-analytics-container>div .header .controllers select {
+    color: #fff!important;
+    background-color: black!important;
+}
+.a-analytics-container .text {
+    color: #fff!important;
+}
+.complex-heading__title .heading {
+    color: #ffffff!important;
+}
+.complex-heading__count {
+    color: #8d8d8d!important;
+}
+.complex-card__address {
+    color: #b9b9b9!important;
+}
+.complex-card__layout-nb {
+    color: #e9e9e9!important;
+}
+.complex-card__price-item--result {
+    color: #d7d7d7!important;
+}
+.complex-card__price-item span {
+    background: #1c1819!important;
+}
+.complex-card__phone {
+    background: #1c1819!important;
+}
+.complex-card__phone-block {
+    color: #ffffff!important;
+    background: #044b7b!important;
+}
+.vue-modal__content {
+    background-color: #434343!important;
+}
+.call-form__title {
+    color: #f5f5f5!important;
+}
+.complex-cards--search .complex-card__order-call {
+    background: #000!important;
+}
+.paginator__btn:hover {
+    color: #f5f5f5!important;
+    background: #000!important;
+}
+.cf-footer button {
+    color: unset!important;
+}
+.complexes-filter__range-input .ui-text-field-wrapper__label {
+    color: #919191!important;
+}
+.ui-multi-select__label {
+    color: #000!important;
+}
+.cf-dropdown__label {
+    color: #919191!important;
+}
+.ui-button--secondary {
+    background-color: #080808!important;
+}
+.complexes-filter__main-params {
+    background: #9f9f9f!important;
+}
+
+.complexes-filter__main-params .cf-dropdown__label{
+    color: #000!important;
+}
+.cf-dropdown__selector {
+    background-color: #1c1819!important;
+    color: #fff!important;
+}
+.cf-dropdown__options-wrapper {
+    background: #000!important;
+}
+.cf-dropdown-item {
+    background-color: #1c1819!important;
+    color: #fff!important;
+}
+.cfm-rooms__button:not(.z) {
+    color: #ffffff!important;
+    box-shadow: unset!important;
+    background: #000!important;
+}
+.cfm-rooms__button:not(.z).ui-select-button--selected {
+    border-color: #b1002e!important;
+    color: #ef0d45!important;
+    background-color: #1c1819!important;
+}
+.ui-select select {
+    background-color: #1c1819!important;
+    color: #fff!important;
+}
+.ui-multi-select__selector {
+    background-color: #1c1819!important;
+    color: #fff!important;
+}
+.ui-multi-select__option {
+    background: #1c1819!important;
+    color: #fff!important;
+}
+.ui-multi-select__option:hover {
+    background: #62595b !important;
+}
+.complex-fast-filter__item {
+    color: #000000!important;
+    background: #adadad!important;
+}
+.complex__sidebar-info-text {
+    color: #cbcbcb!important;
+}
+.complex-parameters__block-text {
+    color: #ffffff!important;
+}
+.complex-parameters__container--has-expand::after {
+    background: unset!important;
+}
+.complex-parameters__title {
+    color: #b34d66!important;
+}
+.premises-layouts__list-item {
+    background: #4d4d4d!important;
+}
+.complex-parameters__card-title {
+    color: #a3a3a3!important;
+}
+.complex-parameters__card-description {
+    color: #d1c9cb!important;
+}
+.complex-similar .complex-card__order-call {
+    color: #2a81dd!important;
+    background: #999 !important;
+}
+.menu-anchors__top-container {
+    background: #000!important;
+}
