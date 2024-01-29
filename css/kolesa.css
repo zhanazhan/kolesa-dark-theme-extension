@@ -17,10 +17,12 @@ body {
 
 .offer__parameters dt {
     color: #a0a0a0!important;
+    background: unset!important;
 }
 
 .offer__parameters dd {
     color: #7a7a7a!important;
+    background: unset!important;
 }
 
 .offer__title {
@@ -29,6 +31,10 @@ body {
 
 .offer {
     color: #b0b0b0!important;
+}
+
+.offer__seller-experience {
+    color: #b3b3b3!important;
 }
 
 .a-credit__amount.isHighlighted {
@@ -70,7 +76,11 @@ body {
     color: #e0e0e0!important;
 }
 
-.price-bar__bar[data-v-390c22dc] {
+.kl-ui-button--white:hover {
+    background-color: #333333 !important;
+}
+
+.price-bar__bar {
     border: 4px solid #222!important;
 }
 
@@ -83,7 +93,7 @@ body {
     color: #b0b0b0!important;
 }
 
-.main-logo img, .main-logo__link img {
+.main-logo img, .main-logo__link img, .ui-footer__header img {
     filter: invert(.75);
 }
 
@@ -232,7 +242,7 @@ input {
     background-color: #19384d!important;
 }
 .a-list__item .a-card--pay-yellow {
-    background-color: #3f3001!important;
+    background-color: #1e1c07!important;
 }
 .vip-block-replacement {
     background-color: #272424!important;
