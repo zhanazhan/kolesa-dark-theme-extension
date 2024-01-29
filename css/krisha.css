@@ -219,3 +219,50 @@ footer.footer {
 .element-group-parameter-choose-category .group-element label.is-required {
     color: #bfbfbf!important;
 }
+.element-group-parameter-choose-category .a-new-category-list__item {
+    color: #b1a5a8!important;
+}
+.a-new-form .control-label, .a-new-form .group-label {
+    color: #b9b1b3!important;
+}
+.a-new-form input[type="number"], .a-new-form input[type="tel"], .a-new-form input[type="text"], .a-search-form-container input.kr-autocomplete__input:not([type="radio"]), input.kr-autocomplete__input:not([type="radio"]), input.nps-custom-comment__input, input.ui-input {
+    color: rgb(28, 24, 25) !important;
+    background: rgb(108, 108, 108) !important;
+}
+.a-new-form input[type="number"], .a-new-form input[type="tel"], .a-new-form input[type="text"], .a-search-form-container input.kr-autocomplete__input:not([type="radio"]), input.kr-autocomplete__input:not([type="radio"]), input.nps-custom-comment__input, input.ui-input {
+    color: #b1a5a8!important;
+    background: #0a0a0a!important;
+}
+.a-new-form input[type="number"], .a-new-form input[type="tel"], .a-new-form input[type="text"], .a-search-form-container input.kr-autocomplete__input:not([type="radio"]), input.kr-autocomplete__input:not([type="radio"]), input.nps-custom-comment__input, input.ui-input {
+    color: #b1a5a8!important;
+    background: #0a0a0a!important;
+}
+.form-control {
+    color: #b1a5a8!important;
+    background-color: #000!important;
+}
+.a-new-form select option {
+    color: #c7c7c7!important;
+}
+.a-photos__content {
+    background-color: #000000!important;
+}
+.a-new-form textarea, .a-search-form-container textarea.kr-autocomplete__input:not([type=radio]), textarea.kr-autocomplete__input:not([type=radio]), textarea.nps-custom-comment__input, textarea.ui-input {
+    background-color: #1c1819!important;
+    color: #fff!important;
+}
+.user-types__title {
+    color: #d5d5d5!important;
+}
+.user-types__item {
+    background-color: #7d7d7d!important;
+}
+.user-types input[type=radio]:checked+label {
+    background: #2b2b2b!important;
+}
+.user-types__name {
+    color: #d3d2d2!important;
+}
+.user-types__name-block p {
+    color: #ffffff!important;
+}
