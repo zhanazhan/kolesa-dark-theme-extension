@@ -15,6 +15,17 @@
       "css": [
         "css/kolesa.css"
       ]
+    },
+    {
+      "matches": [
+        "https://krisha.kz/*"
+      ],
+      "js": [
+        "js/krisha.js"
+      ],
+      "css": [
+        "css/krisha.css"
+      ]
     }
   ]
 }

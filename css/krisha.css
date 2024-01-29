@@ -1,0 +1,221 @@
+body {
+    background-color: #1a1a1a !important;
+    color: #cfcfcf !important;
+}
+
+.topb {
+    display: none;
+}
+.corp-projects__link {
+    color: #b5b5b5!important;
+}
+.corp-projects__item {
+    color: #fffbfc!important;
+}
+
+.primary-navbar-container {
+    border-bottom: 1px solid #f2f2f3;
+    background: #3b3b3b !important;
+}
+
+.header-dropdown .dropdown-menu {
+    background-color: #393939;
+    color: white;
+}
+
+.logo svg {
+    filter: invert(.75);
+}
+
+.a-new-block .btn {
+    background: #494949 !important;
+}
+
+
+.a-new-block .btn:hover {
+    background: #626262 !important;
+}
+
+.main-search-form {
+    background: #474747;
+}
+
+.a-search-form-container {
+    color: #ffdc96 !important;
+    background: #000 !important;
+}
+
+.a-search-form-container .checkbox-overlay {
+    background: #9b790b !important;
+    color: black !important;
+}
+
+#search-form select {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+#search-form input, .a-search-form-container .simple-price input, .a-search-form-container .simple-price select {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+#search-form .search-block-submit .kr-btn.map-search {
+    background: #352f2f !important;
+}
+
+.hot-body .hot:nth-child(2) {
+    background-color: #352f2f !important;
+}
+
+.content-row--gray {
+    background: #575757 !important;
+    color: white !important;
+}
+
+.index-graph-block {
+    background: #060606 !important;
+    color: white !important;
+}
+
+.index-graph-block_footer_price {
+    color: #a5a5a5 !important;
+}
+
+.extended-select {
+    border: 1px solid #d5d5d5;
+    background: #636363 !important;
+}
+
+.extended-dropdown {
+    border: 1px solid #d5d5d5;
+    background-color: #858585 !important;
+}
+
+.kaspi-block {
+    background-color: unset !important;
+}
+
+.banner-place, .board, .hot__banner {
+    background-color: unset !important;
+}
+
+.search-tab-active {
+    border: 1px solid #ffd313;
+    color: #ffffff !important;
+}
+
+.a-card {
+    color: #dfdfdf !important;
+}
+
+.a-card__subtitle, .a-card__text-preview {
+    color: #bfbfbf !important;
+}
+
+.highlighted__title {
+    background: #000 !important;
+    color: white !important;
+}
+
+.header-public .submenu {
+    background-color: #000000 !important;
+}
+
+.btn {
+    color: #fff !important;
+}
+
+.btn-default {
+    color: #fff !important;
+    background-color: #333 !important;
+}
+.a-search-form-container .multiselect-container li a {
+    color: #c5c4c4!important;
+}
+.dropdown-menu {
+    background-color: #333!important;
+}
+.a-search-form-container .section-separator-search-simple {
+    background: #292929!important;
+    color: white!important;
+}
+#search-form .element-region-dropdown a.dropdown-selected-text, .a-search-form-container .element-region-dropdown a.dropdown-selected-text, .a-search-form-container .simple-price .dropdown a, .a-search-form-container .simple-square-select .dropdown a, .a-search-form-container button.multiselect .multiselect-selected-text, .a-search-form-container select.muted-select option {
+    color: #dbd9d9!important;
+}
+.element-region-dropdown select {
+    color: #fff3f3!important;
+    background-color: #000!important;
+}
+.a-new-form input[type=number], .a-new-form input[type=tel], .a-new-form input[type=text], .a-search-form-container input.kr-autocomplete__input:not([type=radio]), input.kr-autocomplete__input:not([type=radio]), input.nps-custom-comment__input, input.ui-input {
+    background: #1c1819!important;
+    color: #fff!important;
+}
+.a-search-form-container .is-button-select .btn-sm-custom {
+    color: #dbd9d9!important;
+    background: #3b3b3b!important;
+}
+.a-search-form-container .is-button-select .btn-sm-custom.active {
+    background: #5d5d5d!important;
+}
+input {
+    color: #fff3f3!important;
+    background-color: #000!important;
+}
+.selectbox .selectbox-select {
+    background: #000!important;
+    color: white!important;
+}
+.a-search-form-container .submit-wrapper .form-reset .alert a, .a-search-form-container .submit-wrapper .form-reset .bcard .user-info .user-title a, .a-search-form-container .submit-wrapper .form-reset .link, .a-search-form-container .submit-wrapper .form-reset .paid-service-container .service-unavailable-text a, .alert .a-search-form-container .submit-wrapper .form-reset a, .bcard .user-info .user-title .a-search-form-container .submit-wrapper .form-reset a, .paid-service-container .service-unavailable-text .a-search-form-container .submit-wrapper .form-reset a {
+    color: rgb(183 183 183 / 75%)!important;
+}
+.a-search-form-container .submit-wrapper .form-reset i {
+    color: rgb(209 209 209 / 75%)!important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a {
+    color: #5b5858!important;
+    background-color: #262626!important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626!important;
+    background-color: #5b5858!important;
+}
+.new-b-place {
+    display: none!important;
+}
+
+.paginator {
+    background: #141414!important;
+}
+.paginator__btn--active {
+    color: #e3e3e3!important;
+    background-color: #2d4f67!important;
+}
+.kr-btn--white {
+    color: #69b2ff!important;
+    background: #393939!important;
+}
+.a-search-form-container .submit-wrapper .search-view-toggle-container .kr-btn {
+    color: #ebe7e8!important;
+    background: #0a0a0a!important;
+}
+.selectbox .selectbox-options {
+    background: #313131!important;
+}
+.header {
+    background-color: #3f3f3f!important;
+}
+.footer-wrapper {
+    background-color: #292929!important;
+}
+footer.footer {
+    background-color: unset!important;
+    color: white;
+}
+.header-menu>ul>li.is-active>a {
+    border-bottom-color: unset!important;
+    color: #e9e9e9!important;
+}
+.element-group-parameter-choose-category .group-element label.is-required {
+    color: #bfbfbf!important;
+}
