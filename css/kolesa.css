@@ -1,169 +1,227 @@
 body {
-    background-color: #101010!important;
-    color: #dbdbdb!important;
+    background-color: #1a1a1a!important;
+    color: #cfcfcf!important;
 }
+
 .notes {
-    color: #919191!important;
+    color: #8a8a8a!important;
 }
+
 .menu-container .header-menu-list {
-    background: #3d3d3d!important;
+    background: #2c2c2c!important;
 }
+
 .vip-card {
-    color: #dbdbdb!important;
+    color: #cfcfcf!important;
 }
 
 .offer__parameters dt {
-    background: unset!important;
-    color: #888b94;
+    color: #a0a0a0!important;
 }
+
 .offer__parameters dd {
-    background: unset!important;
-    color: #c3c3c3!important;
+    color: #7a7a7a!important;
 }
 
 .offer__title {
-    color: #858585!important;
+    color: #999999!important;
 }
+
 .offer {
-    color: #cbcbcb !important;
+    color: #b0b0b0!important;
 }
+
 .a-credit__amount.isHighlighted {
     background-color: #ffd313;
     color: #000;
 }
+
 .corp-projects__title {
-    color: #cbcbcb !important;
+    color: #b0b0b0!important;
 }
+
 .offer__sidebar-contacts {
-    background: #3d3d3d!important;
-    border: 1px solid #f2f2f3!important;
+    background: #2c2c2c!important;
+    border: 1px solid #474747!important;
 }
+
 .related {
-    background-color: #3b3b3b!important;
+    background-color: #262626!important;
     border-bottom: 1px solid rgba(28, 24, 25, .1)!important;
-    color: #000!important;
-    display: none!important;
+    color: #b0b0b0!important;
 }
+
 .ui-footer {
-    background: #232323!important;
-    color: #888b94!important;
-    display: none!important;
+    background: #303030!important;
+    color: #a0a0a0!important;
 }
+
 .main-menu .isSelected .main-menu__label {
     border-color: #2a81dd!important;
-    color: #afafaf!important;
+    color: #b0b0b0!important;
 }
+
 .reader {
-    color: #bfbfbf!important;
+    color: #9c9c9c!important;
 }
+
 .kl-ui-button--white {
-    background-color: #000!important;
-    color: #d1d1d1!important;
+    background-color: #222!important;
+    color: #e0e0e0!important;
 }
 
 .price-bar__bar[data-v-390c22dc] {
-    border: 4px solid #000!important;
+    border: 4px solid #222!important;
 }
+
 .calc-block__month-amount {
     color: black;
 }
+
 .calc-block .form-control {
-    background-color: #4b4b4b!important;
-    color: #9f9f9f!important;
+    background-color: #333!important;
+    color: #b0b0b0!important;
 }
 
 .main-logo img, .main-logo__link img {
-    -webkit-filter: invert(.75); /* safari 6.0 - 9.0 */
     filter: invert(.75);
 }
+
 .mes-messages {
-    color: #bfbebf!important;
+    color: #9a9a9a!important;
 }
 
 .mes-messages__container {
-    background: #353535!important;
+    background: #3a3a3a!important;
 }
+
 .mes-messages__history-placeholder {
-    background: #393939!important;
+    background: #404040!important;
 }
+
 .header, .footer {
-    background: #4d4d4d!important;
+    background: #333!important;
 }
+
 .message {
-    background: #060606!important;
-    color: darkgrey!important;
+    background: #080808!important;
+    color: #9a9a9a!important;
 }
+
 .message.isOwn {
     background: #0e466d!important;
 }
+
 .mes-thread.isActive {
-    background: #535353!important;
+    background: #444!important;
 }
+
 .mes-ui-button--white {
-    background-color: #232323!important;
+    background-color: #2b2b2b!important;
 }
+
 .cab-a__main {
-    background-color: #414040!important;
-    color: #e1e1e1!important;
+    background-color: #3a3a3a!important;
+    color: #dcdcdc!important;
 }
-.cab-a__pay {
-    #display: none!important;
-}
+
 .a-pay__item {
-    background: #393939!important;
-    color: #6b6b6b!important;
+    background: #333!important;
+    color: #7a7a7a!important;
 }
+
 .cab-a__statistic {
-    background-color: #1c1c1c!important;
+    background-color: #222!important;
 }
+
 input {
-    color: #c3c3c3!important;
-    background: #000!important;
+    color: #b0b0b0!important;
+    background: #1a1a1a!important;
 }
+
 .ui-segmented__wrapper {
-    background-color: #7d7d7d!important;
+    background-color: #555!important;
 }
+
 .ui-segmented__item--active, .ui-segmented__item--active:hover {
-    background-color: #0e0e0e!important;
-    color: #c3c3c3!important;
+    background-color: #111!important;
+    color: #b0b0b0!important;
 }
-.a-card {
-    background-color: unset!important;
-}
+
 .advert-note-editor {
-    background: #393939!important;
-    border: 2px solid #0e0e0e!important;
+    background: #3a3a3a!important;
+    border: 2px solid #111!important;
 }
 
 .my-favorite .advert-note-editor .content textarea {
-    background: #393939!important;
+    background: #3a3a3a!important;
     color: #a5a5a5!important;
 }
+
 .month-payment__amount {
     color: black!important;
 }
+
 .favorite-title h1 {
-    color: #ebe4e4!important;
+    color: #e0d5d5!important;
 }
+
 .search-block .main {
-    background: #4f4f4f!important;
+    background: #444!important;
 }
+
 .search-block .main .primary .advanced-section.active {
-    background: #393939!important;
+    background: #3a3a3a!important;
 }
+
 .search-block .advanced-section {
-    color: #cfcfcf!important;
+    color: #b0b0b0!important;
 }
-.a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
-    background: #9f9f9f;
+
+.a-new-form .element-radio .radio-button label,
+.advanced-section .element-radio .radio-button label,
+.element-group-parameter-auto-emergency .element-radio .radio-button label,
+.search-block .main .secondary .element-radio .radio-button label {
+    background: #6b6b6b;
 }
-.a-new-form .element-radio .radio-button input[type=radio]:checked+label, .advanced-section .element-radio .radio-button input[type=radio]:checked+label, .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label, .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
+
+.a-new-form .element-radio .radio-button input[type=radio]:checked+label,
+.advanced-section .element-radio .radio-button input[type=radio]:checked+label,
+.element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label,
+.search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
     background-color: #ffd313;
 }
-.kl-ui-button:disabled, .kl-ui-button[disabled] {
+
+.kl-ui-button:disabled,
+.kl-ui-button[disabled] {
     color: #fff!important;
-    background-color: #000000!important;
+    background-color: #222!important;
 }
-.group--is-expanded, .FilterGroup.isExtended {
+
+.group--is-expanded,
+.FilterGroup.isExtended {
     background-color: #272424!important;
+}
+
+.selectbox .selectbox-select {
+    background: #000!important;
+}
+
+.selectbox-options {
+    background: #000!important;
+}
+.a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
+    background: #000;
+}
+.a-new-form .element-radio .radio-button input[type=radio]:checked+label, .advanced-section .element-radio .radio-button input[type=radio]:checked+label, .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label, .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
+    color: #000!important;
+    background-color: #ffd313;
+}
+.search-block .element-group-parameter-auto-car-order .element-radio .radio-button label {
+    color: #000!important;
+    background-color: #5b5b5b!important;
+}
+.a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
+    color: #000;
+    background-color: #5b5b5b;
 }
