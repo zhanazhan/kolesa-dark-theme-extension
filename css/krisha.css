@@ -37,12 +37,22 @@ body {
 }
 
 .main-search-form {
-    background: #474747;
+    background: #474747!important;
 }
 
 .a-search-form-container {
-    color: #ffdc96 !important;
+    color: #9d9d9d !important;
     background: #000 !important;
+}
+
+.a-search-form-container .submit-wrapper .link-show-as-list.is-active, .a-search-form-container .submit-wrapper .link-show-on-map.is-active {
+    color: #997e47;
+    background: #474747!important;
+}
+
+.a-search-form-container .submit-wrapper .search-view-toggle-container {
+    border: 1px solid #e8c786;
+    background: #555555!important;
 }
 
 .a-search-form-container .checkbox-overlay {
