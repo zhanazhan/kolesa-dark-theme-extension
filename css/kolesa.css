@@ -323,3 +323,8 @@ input {
 .account-fill__bubbles .bubble-item {
     color: #b0b1b1!important;
 }
+
+.se-content {
+    border-top: 1px dashed #cdcdcd;
+    color: #a1a1a1!important;
+}
