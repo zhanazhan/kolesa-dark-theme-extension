@@ -863,3 +863,68 @@ textarea {
 .valuation-process {
     background: #878787!important;
 }
+
+.label-user-identified-company, .label-user-identified-specialist {
+    color: #c75572!important;
+    background-color: transparent!important;
+}
+
+.subsection-header {
+    color: #d5cfcf!important;
+}
+
+.c3-tooltip {
+    background-color: #3d3d3d!important;
+}
+
+.c3-tooltip td {
+    color: #fff!important;
+    background-color: #000!important;
+    border-left: 1px dotted #999!important;
+}
+
+.c3-tooltip th {
+    background-color: #aaa!important;
+    color: #2a2a2a !important;
+}
+
+.extended-select, .extended-select_option {
+    color: #e9e6e6!important;
+}
+
+.section-preview_item-descr_text {
+    color: #ccc!important;
+}
+
+.link-title {
+    color: #e1e1e1!important;
+}
+
+.seo-content p, .seo-main-menu_list a {
+    color: #b7b4b4!important;
+}
+
+.gallery__main {
+    background: #1c1c1c!important;
+}
+
+.offer__archive {
+    background-color: #472b0f!important;
+}
+
+.hot__button {
+    border: solid 1px #e1e1e1;
+    background: #272727!important;
+}
+
+.hot__button:active, .hot__button:focus {
+    border: solid 1px #575757;
+}
+
+.hot__button:hover:not(:disabled) {
+    background: #575757!important;
+}
+
+.hot__button svg {
+    fill: white!important;
+}
