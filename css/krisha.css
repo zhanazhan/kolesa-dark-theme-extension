@@ -7,9 +7,21 @@ a:hover {
     color: #e95959 !important;
 }
 
+.news a, .news h2, .news h2 a {
+    color: #009966;
+}
+
 .topb {
     display: none;
     height: 1px!important;
+}
+
+.corp-project__item {
+    color: #fffbfc!important;
+}
+
+.corp-project__item-link {
+    color: #b5b5b5!important;
 }
 
 .corp-projects__link {
@@ -762,4 +774,92 @@ h2 span {
 
 .news-list .item-of-list p {
     color: #cfcfcf!important;
+}
+
+.news-list .item-of-list {
+    border-bottom: 1px solid #3d3d3d!important;
+}
+
+.news-list .item-of-list a {
+    color: #3f86cd!important;
+    border-bottom: 1px solid #2a93c9!important;
+}
+
+.news-list .item-of-list a:hover {
+    color: #217eda !important;
+    border-bottom: 1px solid #217eda!important;
+}
+
+.content-text h1, .content-text h2, .content-text h3 {
+    color: #df4c4c!important;
+}
+
+.content-text blockquote {
+    background: #9d7f5e!important;
+    color: #d9d8d8 !important;
+}
+
+.grayBlock {
+    background: #000000!important;
+}
+
+textarea {
+    background: #616161!important;
+}
+
+.single-item .tags li {
+    background: #a5a5a5!important;
+}
+
+.single-item .tags li a {
+    color: #ad0404!important;
+}
+
+.content-text a {
+    color: #184069!important;
+}
+
+.hot__title {
+    color: #c3c2c2!important;
+}
+
+.hot__item:hover a {
+    background: #080808!important;
+}
+
+.seo-landing {
+    background-color: #22282b!important;
+}
+
+.seo-landing h3 {
+    color: #ddd5d5!important;
+}
+
+.hot-body {
+    border: 1px solid #616161!important;
+}
+
+.a-search-form-container .multiselect-container li:first-child label {
+    color: white!important;
+}
+
+.a-search-form-container .group-elements label {
+    color: white!important;
+}
+
+.a-search-form-container .selectbox-select, .a-search-form-container input:not([type=radio]), .a-search-form-container select {
+    border: 1px solid #abadb3;
+    background-color: #000!important;
+}
+
+.checkbox-custom__icon-cont {
+    background: #ddd!important;
+}
+
+.a-card::after {
+    border-bottom: 1px solid #555555!important;
+}
+
+.valuation-process {
+    background: #878787!important;
 }
