@@ -928,3 +928,8 @@ textarea {
 .hot__button svg {
     fill: white!important;
 }
+
+.se-content {
+    border-top: 1px dashed #cdcdcd;
+    color: #a1a1a1!important;
+}

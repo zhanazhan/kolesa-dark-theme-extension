@@ -328,3 +328,115 @@ input {
     border-top: 1px dashed #cdcdcd;
     color: #a1a1a1!important;
 }
+
+.favorites .icon-fav-act, .favorites .icon-note-act {
+    color: rgb(249 84 125 / 75%)!important;
+}
+
+.arrow-link-multiple:hover .favorites span.icon-fav-act.icon-fav-on, .arrow-link:hover .favorites span.icon-fav-act.icon-fav-on, .favorites .arrow-link-multiple:hover span.icon-fav-act.icon-fav-on, .favorites .arrow-link:hover span.icon-fav-act.icon-fav-on, .favorites .icon-fav-act.icon-fav-on, .favorites .icon-fav-act.icon-fav-on:hover {
+    color: rgb(249 84 125 / 100%)!important;
+}
+
+.favorites .advert-note-editor .content textarea {
+    color: #fff!important;
+    background-color: #010100!important;
+}
+
+.favorites .advert-note-editor .content textarea {
+    background: #010100!important;
+}
+
+.model-card {
+    background-color: #292929!important;
+}
+
+.new-auto-navbar {
+    background: #1a1a1a!important;
+}
+
+.new-auto-show main {
+    color: #ededed!important;
+}
+
+.new-auto-navbar__option {
+    background: #000!important;
+    color: #2a81dd!important;
+}
+
+.new-auto-navbar__option.isActive {
+    background: #d6ecfb !important;
+    color: #1c1819 !important;
+}
+
+.new-auto-navbar__option:hover {
+    background: #676767 !important;
+    color: #fff!important;
+}
+
+.car-trim {
+    background: #141414!important;
+    box-shadow: 0 2px 10px rgba(28, 24, 25, .1);
+}
+
+.car-trim__equipments {
+    background: #141414!important;
+}
+
+.new-auto-specs__subtitle {
+    background: unset!important;
+}
+
+.compare-trims-content--desktop {
+    background-color: #141414!important;
+}
+.compare-trims-content {
+    background: #141414!important;
+}
+.compare-trims-content__accordion--desktop {
+    background: #141414!important;
+}
+
+.compare-trims-content__toggle {
+    background: #434242!important;
+}
+
+.native-toggle__input[type=checkbox]~.native-toggle__toggle:before {
+    background: #8f8989!important;
+}
+
+.compare-trims-content__header {
+    background: #434242!important;
+}
+.compare-trims-card__trim-info--desktop {
+    color: black;
+}
+
+.compare-trims-card--desktop {
+    background: #5d5d5d!important;
+    border: 1px solid transparent;
+}
+
+.compare-trims-card__price--desktop {
+    color: antiquewhite!important;
+}
+
+.accordion__division .accordion__header, .accordion__division.isOpen .accordion__header {
+    background: #5d5d5d!important;
+}
+
+.compare-trims-content__accordion-button--desktop {
+    background: #5d5d5d!important;
+}
+
+.options-slider {
+    background: #141414!important;
+}
+
+.options-slider__value {
+    background: unset!important;
+}
+
+.option-value {
+    color: #ffffff!important;
+}
+
