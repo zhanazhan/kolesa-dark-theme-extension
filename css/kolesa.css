@@ -630,3 +630,15 @@ nav.pagination .next, nav.pagination .prev {
 a:hover {
     color: #fd7070!important;
 }
+
+.hot .hot-time, .reset-hot-time {
+    display: block!important;
+    visibility: unset!important;
+    font-size: 9px;
+    position: absolute;
+    bottom: 0;
+}
+
+.content-left section .section-links .block-links-list ul li small {
+    color: #afacac!important;
+}
