@@ -626,3 +626,7 @@ nav.pagination .next, nav.pagination .prev {
 .ui-progress-bar {
     background-color: #7d7d7f!important;
 }
+
+a:hover {
+    color: #fd7070!important;
+}

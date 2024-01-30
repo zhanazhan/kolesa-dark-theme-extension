@@ -23,7 +23,8 @@
       "js": [
         "js/jquery-3.7.1.slim.min.js",
         "js/common.js"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [
@@ -36,7 +37,7 @@
         "css/kolesa.css",
         "css/messages.css"
       ],
-      "run_at": "document_start"
+      "run_at": "document_end"
     },
     {
       "matches": [
@@ -48,7 +49,8 @@
       "css": [
         "css/krisha.css",
         "css/messages.css"
-      ]
+      ],
+      "run_at": "document_end"
     }
   ]
 }
