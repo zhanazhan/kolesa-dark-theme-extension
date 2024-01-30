@@ -7,6 +7,14 @@
   "content_scripts": [
     {
       "matches": [
+        "https://*.kz/*"
+      ],
+      "js": [
+        "js/jquery-3.7.1.slim.min.js"
+      ]
+    },
+    {
+      "matches": [
         "https://kolesa.kz/*"
       ],
       "js": [

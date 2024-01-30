@@ -11,7 +11,7 @@ a:hover {
     color: #009966;
 }
 
-.topb {
+.topb, #place-vip {
     display: none;
     height: 1px!important;
 }
