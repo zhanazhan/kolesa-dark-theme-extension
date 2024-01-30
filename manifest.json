@@ -21,7 +21,8 @@
         "https://krisha.kz/*"
       ],
       "js": [
-        "js/jquery-3.7.1.slim.min.js"
+        "js/jquery-3.7.1.slim.min.js",
+        "js/common.js"
       ]
     },
     {
@@ -34,7 +35,8 @@
       "css": [
         "css/kolesa.css",
         "css/messages.css"
-      ]
+      ],
+      "run_at": "document_start"
     },
     {
       "matches": [

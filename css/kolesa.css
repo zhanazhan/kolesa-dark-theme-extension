@@ -7,7 +7,7 @@ body {
     color: #8a8a8a!important;
 }
 
-.menu-container .header-menu-list {
+.menu-container .header-menu-list, .kolesa-top-header-overlay {
     background: #2c2c2c!important;
 }
 
@@ -158,15 +158,15 @@ input {
 .a-new-form .element-radio .radio-button label,
 .advanced-section .element-radio .radio-button label,
 .element-group-parameter-auto-emergency .element-radio .radio-button label,
-.search-block .main .secondary .element-radio .radio-button label {
-    background: #6b6b6b;
+.search-block .main .secondary .element-radio .radio-button label, .main-navigator a.add-adv-btn {
+    background: #6b6b6b!important;
 }
 
 .a-new-form .element-radio .radio-button input[type=radio]:checked+label,
 .advanced-section .element-radio .radio-button input[type=radio]:checked+label,
 .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label,
 .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
-    background-color: #ffd313;
+    background-color: #ffd313!important;
 }
 
 .kl-ui-button:disabled,
@@ -194,7 +194,7 @@ input {
 
 .a-new-form .element-radio .radio-button input[type=radio]:checked+label, .advanced-section .element-radio .radio-button input[type=radio]:checked+label, .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label, .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
     color: #000!important;
-    background-color: #ffd313;
+    background-color: #ffd313!important;
 }
 
 .search-block .element-group-parameter-auto-car-order .element-radio .radio-button label {
@@ -307,7 +307,8 @@ input {
 }
 
 .vue-modal__content {
-    background-color: #616161!important;
+    color: #fff!important;
+    background-color: #292929!important;
 }
 
 .account-fill__bonus--blue {
@@ -440,3 +441,188 @@ input {
     color: #ffffff!important;
 }
 
+.cross-links__count {
+    color: #e7e7e7!important;
+}
+
+.car-trim-info--active {
+    background: #252525!important;
+    border: 1px solid #34a2e9!important;
+}
+
+.compare-trims-cards-slider__navigation {
+    background-color: initial;
+    color: #fffdfe!important;
+}
+
+.compare-trims-cards-slider__navigation--next {
+    background: linear-gradient(270deg, hsl(0deg 0% 22.98% / 80%) 45%, hsl(0deg 0% 0% / 0%))!important;
+}
+.compare-trims-cards-slider__navigation--prev {
+    background: linear-gradient(90deg, hsl(0deg 0% 22.98% / 80%) 45%, hsl(0deg 0% 0% / 0%))!important;
+}
+.compare-trims-cards-slider__navigation--prev:hover button {
+    background: #2d2d2d !important;
+}
+.compare-trims-cards-slider__icon {
+    background: #000!important;
+    border-radius: 100%;
+    box-shadow: 0 2px 10px rgba(28, 24, 25, .3);
+}
+
+.seller-phones__warning a {
+    color: #013267!important;
+}
+
+.seller-phones__warning {
+    background: #9b811f!important;
+    color: #000!important;
+}
+
+.a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
+    background: #676767!important;
+}
+
+.element-type-select.deployed {
+    background: #292929!important;
+}
+
+.a-dashboard__content {
+    background-color: #0e384f!important;
+}
+
+.a-dashboard-item--current {
+    background-color: #195c81 !important;
+    color: #fff!important;
+}
+
+.a-form-mark__icon, .a-form-preview__image, .header-logo-nav {
+    filter: invert(.75);
+}
+
+.a-form-card--active, .a-form-card--active:hover {
+    background-color: #3a3c3d!important;
+    border-color: #d6ecfb;
+    color: #efefef!important;
+}
+
+.a-photos__content--empty {
+    background-color: #7d2626!important;
+    border-color: #2a81dd;
+}
+
+.a-form-options-group {
+    background-color: #632323!important;
+}
+
+.a-form-description__text textarea {
+    background: #000!important;
+    color: #fff!important;
+}
+
+.a-form-preview {
+    background-color: #2d2d2d!important;
+    border: 1px solid rgba(28, 24, 25, .1);
+}
+
+#primary-menu li.menu-item-object-category a {
+    color: #b7b7b7 !important;
+}
+
+.main-navigator a.active, .main-navigator a.active:hover {
+    color: #e7d8db!important;
+}
+
+h1.article-title {
+    color: #e55555!important;
+}
+
+.corp-products__link, .corp-products__link:visited, .locale__link--active, .locale__link--active:hover, .locale__link.locale__link--active  {
+    color: #c7c7c7!important;
+}
+
+#main-bg {
+    background: unset!important;
+}
+
+#main-list li a {
+    color: #fff!important;
+}
+
+#sidebar {
+    background: #3d3d3d!important;
+}
+
+.widget-title {
+    color: #d1cece!important;
+}
+
+.sidebar-tabs-menu li .active, .sidebar-tabs-menu a:hover {
+    border-bottom: 4px solid #ffc018!important;
+    color: #fffcfc!important;
+}
+.sidebar-tabs-menu li a {
+    color: #c7c7c7!important;
+    border-bottom: 1px dashed #6f6f6f!important;
+}
+
+#sidebar #helpful a {
+    color: #cdcdcd!important;
+}
+
+nav.pagination a {
+    color: #c9c4c4!important;
+}
+
+nav.pagination .next, nav.pagination .prev {
+    color: #c9c4c4!important;
+}
+
+.guide-header-title {
+    color: #ededed!important;
+}
+
+.bg-white {
+    background-color: #636363 !important;
+}
+
+.gallery-nav .gallery-counter {
+    color: #fff6f6!important;
+}
+
+.gallery-nav .gallery-prev, .gallery-nav .gallery-next {
+    filter: invert(.75);
+}
+
+.gallery-img-exc, .wp-caption .wp-caption-text {
+    color: #fff6f6!important;
+}
+
+.ui-selectbox {
+    background-color: #494848!important;
+}
+
+.vs__dropdown-menu {
+    background-color: #494848!important;
+}
+
+.vs__dropdown-menu li, .vs__dropdown-menu li span, .vs__dropdown-menu li a {
+    color: #fff6f6!important;
+}
+
+.a-form-breadcrumbs__item {
+    background-color: #123d5b!important;
+    color: #dee7f1!important;
+}
+
+.ui-input__field {
+    border-color: #fff6f6!important;
+}
+
+.a-dashboard-item__icon {
+    border: 1px solid rgb(6 0 2 / 77%)!important;
+}
+
+.ui-progress-bar {
+    background-color: #7d7d7f!important;
+}
