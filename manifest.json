@@ -13,7 +13,8 @@
         "js/kolesa.js"
       ],
       "css": [
-        "css/kolesa.css"
+        "css/kolesa.css",
+        "css/messages.css"
       ]
     },
     {
@@ -24,7 +25,8 @@
         "js/krisha.js"
       ],
       "css": [
-        "css/krisha.css"
+        "css/krisha.css",
+        "css/messages.css"
       ]
     }
   ]

@@ -1,0 +1,44 @@
+.mes-messages {
+    color: #9a9a9a!important;
+}
+
+.mes-messages__container {
+    background: #3a3a3a!important;
+}
+
+.mes-messages__history-placeholder {
+    background: #404040!important;
+}
+
+.header, .footer {
+    background: #333!important;
+}
+
+.message {
+    background: #2a2a2a !important;
+    color: #9a9a9a!important;
+}
+
+.message.isOwn {
+    background: #0e466d!important;
+}
+
+.mes-thread.isActive {
+    background: #444!important;
+}
+
+.mes-ui-button--white {
+    background-color: #2b2b2b!important;
+}
+
+.advert__info {
+    color: #c1c1c1!important;
+}
+
+.mes-scroll-to__button {
+    background-color: #9d9d9d !important;
+    color: #000000 !important;
+}
+.thread-menu__icon {
+    color: #a1a1a1!important;
+}

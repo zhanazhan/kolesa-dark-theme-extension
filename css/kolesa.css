@@ -97,39 +97,6 @@ body {
     filter: invert(.75);
 }
 
-.mes-messages {
-    color: #9a9a9a!important;
-}
-
-.mes-messages__container {
-    background: #3a3a3a!important;
-}
-
-.mes-messages__history-placeholder {
-    background: #404040!important;
-}
-
-.header, .footer {
-    background: #333!important;
-}
-
-.message {
-    background: #080808!important;
-    color: #9a9a9a!important;
-}
-
-.message.isOwn {
-    background: #0e466d!important;
-}
-
-.mes-thread.isActive {
-    background: #444!important;
-}
-
-.mes-ui-button--white {
-    background-color: #2b2b2b!important;
-}
-
 .cab-a__main {
     background-color: #3a3a3a!important;
     color: #dcdcdc!important;
@@ -220,68 +187,88 @@ input {
 .selectbox-options {
     background: #000!important;
 }
+
 .a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
     background: #000;
 }
+
 .a-new-form .element-radio .radio-button input[type=radio]:checked+label, .advanced-section .element-radio .radio-button input[type=radio]:checked+label, .element-group-parameter-auto-emergency .element-radio .radio-button input[type=radio]:checked+label, .search-block .main .secondary .element-radio .radio-button input[type=radio]:checked+label {
     color: #000!important;
     background-color: #ffd313;
 }
+
 .search-block .element-group-parameter-auto-car-order .element-radio .radio-button label {
     color: #000!important;
     background-color: #5b5b5b!important;
 }
+
 .a-new-form .element-radio .radio-button label, .advanced-section .element-radio .radio-button label, .element-group-parameter-auto-emergency .element-radio .radio-button label, .search-block .main .secondary .element-radio .radio-button label {
     color: #000;
     background-color: #5b5b5b;
 }
+
 .a-card {
     background-color: #353535!important;
 }
+
 .a-list__item .a-card--pay-blue {
     background-color: #19384d!important;
 }
+
 .a-list__item .a-card--pay-yellow {
     background-color: #1e1c07!important;
 }
+
 .vip-block-replacement {
     background-color: #272424!important;
 }
+
 .vip-block-replacement__title {
     color: #918e8f!important;
 }
+
 .kl-ui-button--blue.kl-ui-button--shadow:not(.kl-ui-button--loading):not(:disabled) {
     box-shadow: unset!important;
 }
+
 .resale-benefits {
     background-color: #2f2f2f!important;
 }
+
 .credit-label, .resale-label {
     background-color: #a5a5a5!important;
 }
+
 .search-block__shop-filter-badge, .search-block__user-filter-badge {
     background: #000000!important;
     color: white!important;
 }
+
 .search-block {
     color: #bfbfbf!important;
 }
+
 .arrow-link .menu-container .header-menu-list .action-list span.selected, .arrow-link-multiple .menu-container .header-menu-list .action-list span.selected, .element-type-select.arrow-icon .menu-container .header-menu-list .action-list .selected.group-label, .element-type-select.dependent .menu-container .header-menu-list .action-list .selected.group-label, .menu-container .header-menu-list .action-list .action-link.selected, .menu-container .header-menu-list .action-list .arrow-link span.selected, .menu-container .header-menu-list .action-list .arrow-link-multiple span.selected, .menu-container .header-menu-list .action-list .element-type-select.arrow-icon .selected.group-label, .menu-container .header-menu-list .action-list .element-type-select.dependent .selected.group-label, .menu-container .header-menu-list .action-list .selected.accordion-root-label {
     color: #b1b1b1!important;
 }
+
 .dropdown-menu {
     background-color: #3b3b3b!important;
 }
+
 .list__filter--stick:before {
     background-color: #373737!important;
     color: white!important;
 }
+
 .settings-container .settings-tabs .tab-content .form-group label {
     color: #c1c1c1!important;
 }
+
 .settings-container .settings-tabs .nav-tabs {
     background: #252525!important;
 }
+
 .settings-container .settings-tabs .nav-tabs li.active {
     background-color: #575757!important;
 }
@@ -289,31 +276,40 @@ input {
 .settings-container .settings-tabs .nav-tabs li.active a {
     color: white!important;
 }
+
 .settings-container .settings-tabs .width-box {
     background-color: #575757!important;
 }
+
 .btn.btn-primary {
     border-bottom: unset!important;
     color: #fff;
 }
+
 .settings-notifications .checkbox-custom label, .settings-notifications .settings-notifications__submit {
     background-color: #313131!important;
 }
+
 .settings-password__action-wrap {
     background: #656567!important;
 }
+
 .user-cards-heading {
     color: #939393!important;
 }
+
 .account__info {
     background-color: #272727!important;
 }
+
 .card {
     background-color: #434343!important;
 }
+
 .vue-modal__content {
     background-color: #616161!important;
 }
+
 .account-fill__bonus--blue {
     background: #292929!important;
     color: #636363!important;
@@ -323,6 +319,7 @@ input {
     background: #292929!important;
     color: #636363!important;
 }
+
 .account-fill__bubbles .bubble-item {
     color: #b0b1b1!important;
 }
