@@ -130,7 +130,7 @@ input {
     border: 2px solid #111!important;
 }
 
-.my-favorite .advert-note-editor .content textarea {
+.my-favorite .advert-note-editor .content textarea, .my-favorite .advert-note-editor .content {
     background: #3a3a3a!important;
     color: #a5a5a5!important;
 }
@@ -216,7 +216,7 @@ input {
 }
 
 .a-list__item .a-card--pay-yellow {
-    background-color: #1e1c07!important;
+    background-color: #153b00 !important;
 }
 
 .vip-block-replacement {
@@ -241,7 +241,7 @@ input {
 
 .search-block__shop-filter-badge, .search-block__user-filter-badge {
     background: #000000!important;
-    color: white!important;
+    color: #bfbfbf !important;
 }
 
 .search-block {
@@ -641,4 +641,28 @@ a:hover {
 
 .content-left section .section-links .block-links-list ul li small {
     color: #afacac!important;
+}
+
+.search-block .input-group-checkbox label:before {
+    background: #737171!important;
+}
+
+.locale-menu {
+    background-color: #737171!important;
+}
+
+.locale-menu__item .locale-menu__link {
+    color: #414141 !important;
+}
+
+.locale-menu__item .locale-menu__link--active {
+    background-color: #8c8a8a !important;
+    color: #414141 !important;
+}
+.locale-menu__item .locale-menu__link--active:hover {
+    color: #2d2d2d !important;
+}
+
+.month-payment__amount {
+    background-color: #9f8100!important;
 }
