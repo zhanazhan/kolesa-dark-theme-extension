@@ -690,3 +690,32 @@ a:hover {
     border-top: 1px solid #555555 !important;
 }
 
+.account-fill__bonus--blue {
+    background: #2c75bd!important;
+}
+
+.account-fill__title {
+    color: #e5e5e5!important;
+}
+
+.account-fill__input input {
+    color: #d1cdce!important;
+}
+
+.account-fill__input:after {
+    color: #d1cdce!important;
+}
+
+.account-fill__bubbles .bubble-item {
+    color: #fff!important;
+    background: #000!important;
+}
+
+.account-fill__bonus-list .list-items {
+    color: #d59191!important;
+}
+
+.account-fill__bonus-list .list-items__item .bonus, .account-fill__bonus-value {
+    color: #000000!important;
+    background: #c5b166!important;
+}
