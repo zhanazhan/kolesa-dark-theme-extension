@@ -719,3 +719,16 @@ a:hover {
     color: #000000!important;
     background: #c5b166!important;
 }
+
+.mes-ui-button--white {
+    background-color: #3f3f3f !important;
+}
+
+.infoblock {
+    align-items: center;
+    background-color: #9f8e4b!important;
+}
+
+.infoblock__text {
+    color: black!important;
+}
