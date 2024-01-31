@@ -732,3 +732,24 @@ a:hover {
 .infoblock__text {
     color: black!important;
 }
+
+.write-us {
+    color: #dbdbdb!important;
+}
+
+.faq__item.isOpen {
+    background: #3b3b3b!important;
+}
+
+.kl-badge.isWhite {
+    background: #b1b1b1!important;
+    color: #000!important;
+}
+
+.a-compact__additional {
+    background: #141414!important;
+}
+
+.vs__selected {
+    color: #fff!important;
+}
