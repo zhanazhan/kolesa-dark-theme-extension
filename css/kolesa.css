@@ -93,7 +93,7 @@ body {
     color: #b0b0b0!important;
 }
 
-.main-logo img, .main-logo__link img, .ui-footer__header img {
+.main-logo img, .main-logo__link img, .ui-footer__header img, .fiscal-receipt__support-icon-phone, .fiscal-receipt__support-icon-arrow {
     filter: invert(.75);
 }
 
@@ -307,7 +307,7 @@ input {
 }
 
 .vue-modal__content {
-    color: #fff!important;
+    color: #c9c9c9!important;
     background-color: #292929!important;
 }
 
@@ -672,3 +672,21 @@ a:hover {
     background: #8c8a8a !important;
     box-shadow: 0 0 20px rgba(28, 24, 25, .1);
 }
+
+.fiscal-receipt {
+    background-color: #3f3f3f!important;
+    color: #c1c1c1!important;
+}
+
+.fiscal-receipt__support {
+    color: #ff652a!important;
+}
+
+.bonus-modal__info {
+    background-color: #40688f!important;
+}
+
+.bonus-faq__heading {
+    border-top: 1px solid #555555 !important;
+}
+
