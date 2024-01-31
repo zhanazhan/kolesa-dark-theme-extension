@@ -753,3 +753,42 @@ a:hover {
 .vs__selected {
     color: #fff!important;
 }
+
+.month-radio__label {
+    background-color: #4d4d4d!important;
+}
+
+.month-radio__label.active {
+    background-color: #2a81dd!important;
+    color: #fff;
+}
+
+.related-item__price {
+    color: #b5b5b5!important;
+}
+
+.related__title {
+    color: #d3d3d3!important;
+}
+
+.claim {
+    background-color: #515151!important;
+}
+
+.claim-title {
+    color: #141414!important;
+}
+
+.accordion-root-label.active {
+    color: #ff7b7b!important;
+}
+
+.claim textarea {
+    background-color: #313131!important;
+    color: white!important;
+}
+
+.fancybox-skin {
+    background: #f9f9f9;
+    color: #bd9a9a!important;
+}
