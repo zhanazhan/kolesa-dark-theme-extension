@@ -659,10 +659,16 @@ a:hover {
     background-color: #8c8a8a !important;
     color: #414141 !important;
 }
+
 .locale-menu__item .locale-menu__link--active:hover {
     color: #2d2d2d !important;
 }
 
 .month-payment__amount {
     background-color: #9f8100!important;
+}
+
+.hot .hot-list-hovers .hover {
+    background: #8c8a8a !important;
+    box-shadow: 0 0 20px rgba(28, 24, 25, .1);
 }
