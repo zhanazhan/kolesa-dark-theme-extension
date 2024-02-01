@@ -384,6 +384,11 @@ input {
     background: #141414!important;
 }
 
+.car-trim-info {
+    background: #5e5e5e !important;
+    border: 1px solid #34a2e9!important;
+}
+
 .new-auto-specs__subtitle {
     background: unset!important;
 }
