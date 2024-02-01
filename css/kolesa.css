@@ -93,7 +93,7 @@ body {
     color: #b0b0b0!important;
 }
 
-.main-logo img, .main-logo__link img, .ui-footer__header img, .fiscal-receipt__support-icon-phone, .fiscal-receipt__support-icon-arrow {
+.main-logo img, .main-logo__link img, .ui-footer__header img, .fiscal-receipt__support-icon-phone, .fiscal-receipt__support-icon-arrow, i.logo {
     filter: invert(.75);
 }
 
@@ -804,11 +804,20 @@ a:hover {
 
 .tippy-box {
     border-color: #353535!important;
-    background-color: #6ac569!important;
+    background-color: #4a9449 !important;
 }
 
 .tippy-box .paid-service-tooltip__heading, .tippy-box .paid-service-tooltip__text {
-    color: #575757 !important;
+    color: #000 !important;
+}
+
+.tippy-box .paid-service-tooltip__action-link {
+    color: #002ab9 !important;
+}
+
+
+.tippy-box .paid-service-tooltip__action-link:hover {
+    color: #7c0b74 !important;
 }
 
 .a-statistic-table {
@@ -946,4 +955,12 @@ footer.entry-footer a h2 {
 
 .vue-modal .details__value {
     color: #dd5c7c!important;
+}
+
+.signin-form {
+    background-color: #3d3d3d!important;
+}
+
+.signin-form h1 {
+    color: #cbcbcb!important;
 }
