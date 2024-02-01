@@ -26,7 +26,8 @@
         "js/common.js"
       ],
       "all_frames": true,
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "world": "ISOLATED"
     },
     {
       "matches": [
@@ -41,7 +42,8 @@
         "css/messages.css"
       ],
       "all_frames": true,
-      "run_at": "document_end"
+      "run_at": "document_end",
+      "world": "ISOLATED"
     },
     {
       "matches": [
@@ -55,7 +57,8 @@
         "css/messages.css"
       ],
       "all_frames": true,
-      "run_at": "document_end"
+      "run_at": "document_end",
+      "world": "ISOLATED"
     }
   ]
 }
