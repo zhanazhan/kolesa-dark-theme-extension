@@ -846,3 +846,47 @@ a:hover {
     color: #f19494!important;
 }
 
+.kl-ui-button--blue-light {
+    color: #e9f2fb!important;
+    background-color: #2a81dd!important;
+}
+
+.moderation-disclaimer {
+    background-color: #6f4e1d !important;
+}
+
+.a-new-form .element-group .group-element .field-container textarea {
+    background-color: black!important;
+    color: #b7b7b7!important;
+}
+
+.selectbox .selectbox-select .text.selected {
+    color: #b7b7b7!important;
+}
+
+.a-new-form .element-group.accept-agreement {
+    background: #1b411e!important;
+}
+
+.a-new-form .buttons .js-submit {
+    background: #337ab7!important;
+    color: #fff!important;
+}
+
+.a-form-radio--disabled {
+    background-color: #752f1f!important;
+}
+
+.a-form-radio--active, .a-form-radio--active:hover {
+    color: #d6ecfb!important;
+    border-color: #d6ecfb!important;
+    background-color: #1c1819!important;
+}
+
+.ui-selectbox .vs__dropdown-option--selected {
+    color: #fafafa!important;
+    background-color: #1c1819!important;
+}
+
+
+
