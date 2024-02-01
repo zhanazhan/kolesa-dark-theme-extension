@@ -792,3 +792,57 @@ a:hover {
     background: #f9f9f9;
     color: #bd9a9a!important;
 }
+
+.paid-services-icons__item {
+    cursor: pointer;
+}
+
+.tippy-box {
+    border-color: #353535!important;
+    background-color: #6ac569!important;
+}
+
+.tippy-box .paid-service-tooltip__heading, .tippy-box .paid-service-tooltip__text {
+    color: #575757 !important;
+}
+
+.a-statistic-table {
+    color: #6ac569!important;
+}
+
+.ui-segmented__item {
+    color: #dbd3d5!important;
+}
+
+.chart-tooltip {
+    background: #565656!important;
+}
+
+.chart-tooltip__icon {
+    color: #bbbec9!important;
+}
+
+.chart-tooltip__caret {
+    background: #565656!important;
+    border-bottom: 1px solid rgba(28,24,25,.1);
+    border-right: 1px solid rgba(28,24,25,.1);
+}
+
+.a-statistic-chart__control-icon,.a-statistic-chart__control {
+    background-color: initial;
+    color: inherit;
+}
+
+
+.a-statistic-chart__analytics-text {
+    color: #888b94!important;
+}
+
+.popup-update-browser__content {
+    background: #888b94!important;
+}
+
+.storage-tabs__postfix {
+    color: #f19494!important;
+}
+
