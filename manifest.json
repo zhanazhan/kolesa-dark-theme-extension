@@ -18,7 +18,8 @@
     {
       "matches": [
         "https://kolesa.kz/*",
-        "https://krisha.kz/*"
+        "https://krisha.kz/*",
+        "https://avtoelon.uz/*"
       ],
       "js": [
         "js/jquery-3.7.1.slim.min.js",
@@ -29,7 +30,8 @@
     },
     {
       "matches": [
-        "https://kolesa.kz/*"
+        "https://kolesa.kz/*",
+        "https://avtoelon.uz/*"
       ],
       "js": [
         "js/kolesa.js"
