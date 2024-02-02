@@ -332,11 +332,11 @@ input {
 }
 
 .favorites .icon-fav-act, .favorites .icon-note-act {
-    color: rgb(249 84 125 / 75%)!important;
+    color: #dd5c7c!important;
 }
 
 .arrow-link-multiple:hover .favorites span.icon-fav-act.icon-fav-on, .arrow-link:hover .favorites span.icon-fav-act.icon-fav-on, .favorites .arrow-link-multiple:hover span.icon-fav-act.icon-fav-on, .favorites .arrow-link:hover span.icon-fav-act.icon-fav-on, .favorites .icon-fav-act.icon-fav-on, .favorites .icon-fav-act.icon-fav-on:hover {
-    color: rgb(249 84 125 / 100%)!important;
+    color: #dd5c7c!important;
 }
 
 .favorites .advert-note-editor .content textarea {
@@ -544,7 +544,7 @@ header nav li.current-menu-item, header nav li.current-post-parent, header nav l
 }
 
 h1.article-title {
-    color: #e55555!important;
+    color: #dd5c7c!important;
 }
 
 .corp-products__link, .corp-products__link:visited, .locale__link--active, .locale__link--active:hover, .locale__link.locale__link--active  {
@@ -722,7 +722,7 @@ a:hover {
 }
 
 .account-fill__bonus-list .list-items {
-    color: #d59191!important;
+    color: #dd5c7c!important;
 }
 
 .account-fill__bonus-list .list-items__item .bonus, .account-fill__bonus-value {
@@ -790,7 +790,7 @@ a:hover {
 }
 
 .accordion-root-label.active {
-    color: #ff7b7b!important;
+    color: #dd5c7c!important;
 }
 
 .claim textarea {
@@ -862,7 +862,7 @@ a:hover {
 }
 
 .storage-tabs__postfix {
-    color: #f19494!important;
+    color: #dd5c7c!important;
 }
 
 .kl-ui-button--blue-light {
@@ -908,7 +908,7 @@ a:hover {
 }
 
 .shop-info__experience {
-    color: #ff7c9d!important;
+    color: #dd5c7c!important;
 }
 
 .shop-address__region, .shop-mode__title {
@@ -942,7 +942,7 @@ footer.entry-footer a h2 {
 }
 
 .cabinet-photos__help {
-    color: #cf768c!important;
+    color: #dd5c7c!important;
 }
 
 .a-photos__content {
@@ -971,5 +971,9 @@ footer.entry-footer a h2 {
 }
 
 .resale-link__text {
-    color: #fa668b!important;
+    color: #dd5c7c!important;
+}
+
+.offer__actions .icon-kl:hover {
+    color: #dd5c7c!important;
 }
