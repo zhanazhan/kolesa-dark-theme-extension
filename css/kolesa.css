@@ -216,7 +216,7 @@ input {
 }
 
 .a-list__item .a-card--pay-yellow {
-    background-color: #153b00 !important;
+    background-color: #07250a!important
 }
 
 .vip-block-replacement {
@@ -236,6 +236,7 @@ input {
 }
 
 .credit-label, .resale-label {
+    color: #000!important;
     background-color: #a5a5a5!important;
 }
 
@@ -332,6 +333,10 @@ input {
 }
 
 .favorites .icon-fav-act, .favorites .icon-note-act {
+    color: #2a81dd!important;
+}
+
+.favorites .icon-fav-act:hover, .favorites .icon-note-act:hover {
     color: #dd5c7c!important;
 }
 
@@ -675,7 +680,7 @@ a:hover {
 }
 
 .month-payment__amount {
-    background-color: #9f8100!important;
+    background-color: #ffd313!important;
 }
 
 .hot .hot-list-hovers .hover {
@@ -997,4 +1002,26 @@ footer.entry-footer a h2 {
 .search-sort__button {
     background-color: initial;
     color: #f3e7ea!important;
+}
+
+.vip-card__credit {
+    background-color: #ffd313!important;
+    color: #000!important;
+}
+
+.a-card__price {
+    color: #fff!important;
+}
+
+.vip-block__title {
+    color: #fcfcfc !important;
+}
+
+.paginator .pager ul li span.active {
+    background-color: #ffd313!important;
+    color: #000!important;
+}
+
+.add-new .add-new-info {
+    color: #dd5c7c!important;
 }
