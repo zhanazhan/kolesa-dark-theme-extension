@@ -536,7 +536,7 @@ input {
 }
 
 header nav li.current-menu-item, header nav li.current-post-parent, header nav li a:hover {
-    background-color: #2725c5 !important;
+    background-color: unset !important;
 }
 
 .main-navigator a.active, .main-navigator a.active:hover {
@@ -812,6 +812,14 @@ a:hover {
     background-color: #4a9449 !important;
 }
 
+.tippy-box a {
+    color: #f9f9f9!important;
+}
+
+.tippy-box a:hover {
+    color: #0a0a0a !important;
+}
+
 .tippy-box .paid-service-tooltip__heading, .tippy-box .paid-service-tooltip__text {
     color: #000 !important;
 }
@@ -976,4 +984,17 @@ footer.entry-footer a h2 {
 
 .offer__actions .icon-kl:hover {
     color: #dd5c7c!important;
+}
+
+.arrow-link-multiple:hover span.search-sort__button, .arrow-link:hover span.search-sort__button, .search-sort__button:hover {
+    color: #b4b4b4 !important;
+}
+
+.search-sort__button a {
+    color: #dd5c7c!important;
+}
+
+.search-sort__button {
+    background-color: initial;
+    color: #f3e7ea!important;
 }
