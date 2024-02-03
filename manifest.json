@@ -26,6 +26,9 @@
         "js/jquery-3.7.1.slim.min.js",
         "js/common.js"
       ],
+      "css": [
+        "css/custom.css"
+      ],
       "all_frames": true,
       "run_at": "document_start",
       "world": "ISOLATED"
