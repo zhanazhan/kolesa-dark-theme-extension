@@ -482,8 +482,8 @@ input {
 }
 
 .seller-phones__warning {
-    background: #9b811f!important;
-    color: #000!important;
+    color: #3b3b3b!important;
+    background: #ffd313!important;
 }
 
 .element-type-select.deployed {
@@ -1002,7 +1002,7 @@ footer.entry-footer a h2 {
 }
 
 .a-card__price {
-    color: #fff!important;
+    color: #f3e7ea!important;
 }
 
 .vip-block__title {
