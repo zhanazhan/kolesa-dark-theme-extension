@@ -1025,3 +1025,70 @@ footer.entry-footer a h2 {
 .advisory-popup .hot-right small a i.hot, .hot-right small a .advisory-popup i.hot, .hot-right small a .fi-paid-hot, .hot-right small a .paid-service-tooltip__benefits-item-icon.hot, .hot-right small a .paid-services-icons__item.hot {
     color: #dd5c7c!important;
 }
+
+.paid-service-tooltip__package-icon {
+    background: #fff!important;
+}
+
+.paid-service-tooltip__package-icon.turbo-sale {
+    color: #f33!important;
+}
+
+.paid-service-tooltip__package-icon.fast-sale {
+    color: #06c!important;
+}
+
+.paid-service-tooltip__image {
+    background: #f2f2f2!important;
+}
+
+.paid-service-tooltip__price-total {
+}
+
+.paid-service-tooltip__price-full {
+    color: #3f3f3f !important;
+}
+
+.paid-service-tooltip__benefits-item-icon.vip {
+    color: #f33!important;
+}
+
+.paid-service-tooltip__benefits-item-icon.up {
+    color: #f73!important;
+}
+
+.paid-service-tooltip__benefits-item-icon.hot {
+    color: #f33!important;
+}
+
+.paid-service-tooltip__benefits-item-icon.re {
+    color: #06c!important;
+}
+
+.paid-service-tooltip__benefits-item-icon[class*=color-] {
+    color: #64bd38!important;
+}
+
+.paid-services-icons__item {
+    background: #fff!important;
+}
+
+.paid-services-icons__item.turbo-sale,.paid-services-icons__item.vip {
+    color: #f33!important;
+}
+
+.paid-services-icons__item.fast-sale {
+    color: #06c!important;
+}
+
+.paid-services-icons__item.up {
+    color: #f73!important;
+}
+
+.paid-services-icons__item.hot {
+    color: #f33!important;
+}
+
+.app-promo {
+    background-color: #2a81dd!important;
+}
