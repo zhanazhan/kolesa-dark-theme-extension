@@ -449,7 +449,7 @@ input {
 }
 
 .cross-links__count {
-    color: #e7e7e7!important;
+    color: #b7b7b7 !important;
 }
 
 .car-trim-info--active {
@@ -1002,11 +1002,11 @@ footer.entry-footer a h2 {
 }
 
 .a-card__price {
-    color: #f3e7ea!important;
+    color: #d7d7d7 !important;
 }
 
 .vip-block__title {
-    color: #fcfcfc !important;
+    color: #d7d7d7 !important;
 }
 
 .paginator .pager ul li span.active {
@@ -1091,4 +1091,8 @@ footer.entry-footer a h2 {
 
 .app-promo {
     background-color: #2a81dd!important;
+}
+
+.a-labels {
+    color: #000!important;
 }
