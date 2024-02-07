@@ -1,6 +1,6 @@
 const writeWhatsUpKolesa = async () => {
     while (true) {
-        const exist = Array.from(document.querySelectorAll('.social-button'));
+        const exist = Array.from(document.querySelectorAll('.social-button-alike'));
         if (exist.length > 0) {
             break;
         }
@@ -15,8 +15,7 @@ $(() => {
         '.place-vip_newauto'
     ];
     initHide(selectors);
-
-    $('.show-seller-phones-button').click(() => {
+    $('.seller-phones__show-button').click(() => {
         setTimeout(writeWhatsUpKolesa, 1000);
     });
 });
