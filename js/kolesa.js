@@ -16,7 +16,7 @@ $(() => {
     ];
     initHide(selectors);
 
-    $('.seller-phones__show-button').click(() => {
+    $('.show-seller-phones-button').click(() => {
         setTimeout(writeWhatsUpKolesa, 1000);
     });
 });
