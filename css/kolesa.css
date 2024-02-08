@@ -208,11 +208,13 @@ input {
 }
 
 .a-list__item .a-card--pay-blue {
-    background-color: #19384d!important;
+    background-color: #000000 !important;
+    border: 1px solid #8cb6e1 !important;
 }
 
 .a-list__item .a-card--pay-yellow {
-    background-color: #07250a!important
+    background-color: #000000 !important;
+    border: 1px solid #88805c!important;
 }
 
 .vip-block-replacement {
