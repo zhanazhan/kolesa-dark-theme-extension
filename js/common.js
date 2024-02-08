@@ -26,18 +26,21 @@ const socialInserter = (node, from) => {
     const classTelega = from === 'kolesa'
         ? 'kl-ui-button kl-ui-button--blue'
         : 'kr-btn kr-btn--auto kr-btn--blue';
-    const linkWhatsApp = $('<a>')
+    const classAdditional = from === 'kolesa'
+        ? ' social-button-alike'
+        : ' social-button';
+    const linkWhatsApp = $('<a/>')
         .attr('href', `https://wa.me/${number}`)
         .attr('target', '_blank')
         .attr('rel', 'nofollow')
-        .addClass(classWhatsApp + ' social-button')
+        .addClass(classWhatsApp + ' ' + classAdditional)
         .text('✆ W')
     $(node).append(linkWhatsApp);
     const linkTelega = $('<a>')
         .attr('href', `https://t.me/${number}`)
         .attr('target', '_blank')
         .attr('rel', 'nofollow')
-        .addClass(classTelega + ' social-button pr-4')
+        .addClass(classTelega + ' ' + classAdditional + ' pr-4')
         .text('✆ T')
     $(node).append(linkTelega);
 };
