@@ -17,6 +17,8 @@
   "content_scripts": [
     {
       "matches": [
+        "https://aliexpress.ru/*",
+        "https://shoppingcart.aliexpress.ru/*",
         "https://kolesa.kz/*",
         "https://krisha.kz/*",
         "https://id.kolesa.kz/*",
@@ -59,6 +61,23 @@
       ],
       "css": [
         "css/krisha.css",
+        "css/messages.css"
+      ],
+      "all_frames": true,
+      "run_at": "document_end",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": [
+        "https://aliexpress.ru/*",
+        "https://shoppingcart.aliexpress.ru/*"
+      ],
+      "js": [
+        "js/aliexpress.js"
+      ],
+      "css": [
+        "css/aliexpress.css",
+        "css/aliexpress_media.css",
         "css/messages.css"
       ],
       "all_frames": true,

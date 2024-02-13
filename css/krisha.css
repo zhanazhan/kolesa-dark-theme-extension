@@ -937,3 +937,89 @@ textarea {
 .note-modal__title, .note-modal__inp-info {
     color: #d0d0d0 !important;
 }
+
+.paid-color-light-red {
+    background-color: #171717!important;
+}
+
+.a-map-sidebar-item__price {
+    color: #cac9c9!important;
+}
+
+.a-map-sidebar-item__footer {
+    color: #cac9c9!important;
+}
+
+.search-map-sidebar {
+    background-color: #171717!important;
+}
+
+.a-map-sidebar-item {
+    border-bottom: solid 1px #c6c6c6!important;
+}
+
+.paid-color-light-red {
+    background-color: #171717!important;
+}
+
+.paid-color-dark-red,.paid-color-light-red .paid-color-dark {
+    background-color: #171717!important;
+}
+
+.paid-color-light-red .menu-item {
+    border-color: #c6c6c6!important
+}
+
+.paid-color-dark-red .paid-color-light {
+    background-color: #171717!important;
+}
+
+.paid-color-light-yellow {
+    background-color: #171717!important;
+}
+
+.paid-color-dark-yellow,.paid-color-light-yellow .paid-color-dark {
+    background-color: #171717!important;
+}
+
+.paid-color-light-yellow .menu-item {
+    border-color: #c6c6c6!important
+}
+
+.paid-color-dark-yellow .paid-color-light {
+    background-color: #171717!important;
+}
+
+.paid-color-light-blue {
+    background-color: #171717!important;
+}
+
+.paid-color-dark-blue,.paid-color-light-blue .paid-color-dark {
+    background-color: #171717!important;
+}
+
+.paid-color-light-blue .menu-item {
+    background-color: #171717!important;
+}
+
+.paid-color-dark-blue .paid-color-light {
+    background-color: #171717!important;
+}
+
+.paid-color-light-green {
+    background-color: #171717!important;
+}
+
+.paid-color-dark-green,.paid-color-light-green .paid-color-dark {
+    background-color: #171717!important;
+}
+
+.paid-color-light-green .menu-item {
+    border-color: #c6c6c6!important
+}
+
+.paid-color-dark-green .paid-color-light {
+    background-color: #171717!important;
+}
+
+
