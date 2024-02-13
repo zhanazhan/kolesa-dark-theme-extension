@@ -173,6 +173,9 @@ html, body, .background, .RedHeader_RedHeader__background__pelcz, .ShipToHeaderI
     --color-text-success: #33c83d;
     --color-text-tretiary: #a0a0ab;
     --color-text-tretiary-disabled: #d1d1d6;
+    --bgColor: #1a1a1a!important;
+    --borderRadius: 8px;
+    --border: 1px solid #414141 !important;
 }
 
 .RedHeader_RedHeader__header__pelcz, .RedModuleBanner_Banner__left-block__17cnq {
@@ -240,12 +243,12 @@ html, body, .background, .RedHeader_RedHeader__background__pelcz, .ShipToHeaderI
     color: #000000 !important;
 }
 
-.snow-ali-kit_Typography-Primary__base__1xop0e, .snow-ali-kit_Typography-Primary__link__1xop0e {
+.snow-ali-kit_Typography-Primary__base__1xop0e, .snow-ali-kit_Typography-Primary__link__1xop0e, p, p span {
     background-color: #1a1a1a!important;
     color: #cfcfcf!important;
 }
 
-.snow-ali-kit_Tab__title__jai3av, .snow-price_SnowPrice__mainS__1cmks6 {
+.snow-ali-kit_Tab__title__jai3av, .snow-price_SnowPrice__mainS__1cmks6, .RedFooter_FooterTop__wrapper__kpk5x  {
     background-color: #1a1a1a!important;
     color: #cfcfcf!important;
 }
@@ -275,5 +278,47 @@ html, body, .background, .RedHeader_RedHeader__background__pelcz, .ShipToHeaderI
 
 .ProfitShelf_Product__priceContainer__15c22 {
     background: none!important;
+}
+
+.HazeProductButtons_HazeProductButtons__availQuantityText__1mmkw {
+    color: #cfcfcf!important;
+}
+
+.SnowProductCharacteristics_SnowProductCharacteristicsItem__titleContent__534v9 {
+    background-color: unset!important;
+}
+
+.HazeProductDescription_HazeProductDescription__topItemLabel__8s9ws {
+    color: #ef5252 !important;
+    border: 1px solid #d6d6db!important;
+}
+
+.SnowStickyOffer_SnowStickyOffer__grid__rj3x5 {
+    border: 1px solid #989898 !important;
+    background-color: #1a1a1a !important;
+}
+
+.SnowStickyOffer_SnowStickyOffer__grid__rj3x5 {
+    background: #1a1a1a!important;
+}
+
+.RedReviewsProductRating_MainSection__mainSection__1h1kg {
+    border: 1px solid #cfcfcf;
+    background-color: #1a1a1a!important;
+    color: #cfcfcf!important;
+}
+
+.RedReviewsProductRating_AdditionalSection__additionalSection__82v19, .red-review-item_RedReviewItem__wrapper__jkrtla  {
+    border: 1px solid #cfcfcf;
+    background: #1a1a1a!important;
+}
+
+.red-review-item_ReviewText__text__qtkydn, .red-review-item_ReviewHeader__title__e87i17 {
+    color: #cfcfcf!important;
+}
+
+.red-review-item_ReviewText__button__qtkydn.red-review-item_ReviewText__readMore__qtkydn:before, .red-review-item_ReviewText__button__qtkydn.red-review-item_ReviewText__readMore__qtkydn {
+    color: #bb4b4b !important;
+    background: #1a1a1a!important;
 }
 

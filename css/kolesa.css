@@ -1107,3 +1107,10 @@ footer.entry-footer a h2 {
     background-color: #2a81dd!important;
     color: #d7d7d7!important;
 }
+
+.accordion-root-label:hover, .action-link:hover, .arrow-link span:hover, .arrow-link-multiple span:hover, .arrow-link-multiple:hover span, .arrow-link:hover span, .element-type-select.arrow-icon .group-label:hover, .element-type-select.dependent .group-label:hover {
+    border-bottom: 1px dotted transparent;
+    _border-bottom: none;
+    color: #dd5c7c!important;
+}
+
