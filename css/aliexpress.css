@@ -323,8 +323,8 @@
     }
 
     .SnowShoppingcartTotalPrice_Order__container__18spe {
-        border: 1px solid #6598cb!important;
-        background: #484848!important;
+        border: 1px solid #6598cb !important;
+        background: #484848 !important;
     }
 
     .SnowShoppingcartTotalPrice_OrderButton__leftText__cimn0, .SnowShoppingcartTotalPrice_OrderButton__buttonText__cimn0 {
@@ -337,11 +337,127 @@
 
     .snow-ali-kit_Tab__sizeM__jai3av .snow-ali-kit_Tab__title__jai3av, .background, .RedHeader_RedHeader__background__pelcz, .ShipToHeaderItem_ShipToHeaderItem__redHeaderContainer__1ot1v, .SnowOrderList_OrderItem__wrapper__15dr1,
     .snow-ali-kit_Typography-Secondary__base__1i67dw, .snow-ali-kit_Typography-Secondary__link__1i67dw, .ProfitShelf_ProfitShelf__profitShelf__cxe7m, .MainLayout__background-white__1mo61 {
-        background: unset!important;
+        background: unset !important;
         color: #cfcfcf !important;
     }
 
     .SnowShoppingcartProductList_Product__container__pflxj {
         border-radius: unset !important;
+    }
+
+    .haze-checkbox_Checkbox__label__1bqvr4 {
+        color: #cfcfcf !important;
+    }
+
+    .RedFilter_LeftPanel__childContainerTitle__1b4hu {
+        color: #cfcfcf !important;
+    }
+
+    .RedFilter_HighlightedMultiLangLabel__black__14a5d {
+        color: #cfcfcf !important;
+    }
+
+    .SnowSearchRecommendations_HScrollWrapper__arrowRight__4bl7o .SnowSearchRecommendations_HScrollWrapper__arrowBlur__4bl7o {
+        background: unset !important;
+        right: 0;
+    }
+
+    .product-snippet_ProductSnippet__container__5xqh4f {
+        background-color: #3f3f3f !important;
+        color: #cfcfcf !important;
+    }
+
+    .SnowSearchRecommendations_HScrollWrapper__arrowButton__4bl7o {
+        background-color: #1a1a1a !important;
+    }
+
+    .red-snippet_RedSnippet__grid__11s15u {
+        background-color: unset !important;
+    }
+
+    .red-snippet_RedSnippet__container__11s15u {
+        background-color: #3f3f3f !important;
+        color: #cfcfcf !important;
+    }
+
+    .red-snippet_RedSnippet__priceNew__11s15u > .red-snippet_RedSnippet__overflowWrap__11s15u span, .red-snippet_RedSnippet__priceOld__11s15u > .red-snippet_RedSnippet__overflowWrap__11s15u span, .red-snippet_RedSnippet__title__11s15u > .red-snippet_RedSnippet__overflowWrap__11s15u span, .red-snippet_RedSnippet__trust__11s15u > .red-snippet_RedSnippet__overflowWrap__11s15u span {
+        color: #cfcfcf !important;
+    }
+
+    .red-snippet_RedSnippet__activeSale__11s15u .red-snippet_RedSnippet__discount__11s15u, .red-snippet_RedSnippet__activeSale__11s15u .red-snippet_RedSnippet__priceNew__11s15u {
+        color: #dd5c7c !important;
+    }
+
+    .red-snippet_RedSnippet__originalPrice__11s15u + .red-snippet_RedSnippet__discount__11s15u, .red-snippet_RedSnippet__warmupPeriod__11s15u + .red-snippet_RedSnippet__discount__11s15u, .red-snippet_RedSnippet__warmupPeriod__11s15u + .red-snippet_RedSnippet__originalPrice__11s15u {
+        color: #939393 !important;
+    }
+
+    .RedFilter_TopPanel__panel__16hey, .RedFilter_TopPanel__panelTop__16hey {
+        background-color: #3f3f3f !important;
+    }
+
+    .RedFilter_TopPanel__container__16hey {
+        background-color: unset !important;
+    }
+
+    .RedHeaderMenuItem_RedHeaderMenuItem__item__yjodo {
+        background: #363636 !important;
+    }
+
+    .RedFilter_TopPanel__panelTop__16hey {
+        border: 1px solid #939393;
+    }
+
+    .RedFilter_LayoutSwitchBlock__icon__1x8yq {
+        background: #363636 !important;
+        color: #939393 !important;
+    }
+
+    .ShipToHeaderItem_GeoTooltip__redHeaderElement__6c4nl, .ShipToHeaderItem_ShipToHeaderItem__redHeaderElement__1ot1v {
+        background: #363636 !important;
+        color: #939393 !important;
+        border: 1px solid #939393;
+    }
+
+    .pickBarWrapper, #tabContainerMain .tabContainerDiv, #tabContainerMain .tabContainerDiv .tabItemTxt, .tabSubContainerDiv,
+    .tabSubContainerDiv .tabSubItem, .tabSubContainerDiv .tabSubItem .tabItemTxt {
+        background: #363636 !important;
+        color: #939393 !important;
+    }
+
+    .waterFallCon, .rax-view-v2 {
+        background: #363636 !important;
+        color: #939393 !important;
+    }
+
+    .title {
+        color: #939393 !important;
+    }
+
+    #gcpAerFooter, .RedCrosslinks_Category__link__1vl26 {
+        background: #363636 !important;
+        color: #939393 !important;
+    }
+
+    #gcpAerFooter .privacy-links a, #gcpAerFooter .user-helper-link a {
+        color: #939393 !important;
+    }
+
+    #gcpAerFooter .heading-item-desc {
+        color: #939393 !important;
+    }
+
+    #gcpAerFooter .iconfont:after {
+        color: #939393 !important;
+    }
+
+    .SnowProductBreedCoupon_SnowProductBreedCoupon__contentLeft__13tx0, .SnowProductBreedCoupon_SnowProductBreedCoupon__button__13tx0,
+    .SnowProductBreedCoupon_SnowProductBreedCoupon__content__13tx0, .HazeRoundedBox_HazeRoundedBox__box__q281d, .RedFooter_FooterTop__wrapper__1vhcw  {
+        background: unset !important;
+        color: #939393 !important;
+    }
+
+    .ProfitShelf_ProfitShelf__linkRedStyle__cxe7m {
+        color: #939393 !important;
     }
 }
