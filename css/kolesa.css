@@ -1122,3 +1122,8 @@ footer.entry-footer a h2 {
     background-color: #2a81dd!important;
     color: #d7d7d7!important;
 }
+
+.bg-white {
+    color: #d7d7d7 !important;
+    background-color: #1c1819 !important;
+}
