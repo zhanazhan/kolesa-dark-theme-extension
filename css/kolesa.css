@@ -1114,3 +1114,11 @@ footer.entry-footer a h2 {
     color: #dd5c7c!important;
 }
 
+.seller-phones__title, .seller-phones__text {
+    color: #d7d7d7!important;
+}
+
+.offer__in-archive {
+    background-color: #2a81dd!important;
+    color: #d7d7d7!important;
+}
