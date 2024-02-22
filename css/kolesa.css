@@ -93,7 +93,7 @@ body {
     color: #b0b0b0!important;
 }
 
-.main-logo img, .main-logo__link img, .ui-footer__header img, .fiscal-receipt__support-icon-phone, .fiscal-receipt__support-icon-arrow, i.logo {
+.main-logo img, .main-logo__link img, .ui-footer__header img, .fiscal-receipt__support-icon-phone, .fiscal-receipt__support-icon-arrow, i.logo, .icon-kaspi-logo {
     filter: invert(.75);
 }
 
@@ -1126,4 +1126,30 @@ footer.entry-footer a h2 {
 .bg-white {
     color: #d7d7d7 !important;
     background-color: #1c1819 !important;
+}
+
+.credit-header {
+    background-color: unset!important;
+}
+
+.initial-form-container .initial-form-block .text-form, .initial-form-container .initial-form-block #initialForm label.a-statistic-table,
+.verify-form-container .verify-form-block .text-verify-form,
+.verify-form-container .verify-form-block .verify-form span:first-of-type,
+.decision-container .decision-block .text-decision,
+.decision-container .decision-block .decline-action {
+    color: #d7d7d7 !important;
+}
+
+.initial-form-container .note-list {
+    border-left: 2px solid #d8d8d8;
+    color: #dd5c7c!important;
+}
+
+body .credit-breadcrumbs span {
+    color: #ececec !important;
+}
+
+
+body .credit-breadcrumbs .current span {
+    background-color: #3f3f3f !important;
 }
