@@ -1,7 +1,7 @@
 {
   "author": "Jake, Inc.",
-  "name": "Kolesa/Krisha Dark Theme",
-  "description": "Enjoy dark theme in popular sites of Kazakhstan",
+  "name": "Dark Theme for Kazakhstan",
+  "description": "Enjoy dark theme in popular sites of Kazakhstan (Kolesa.kz, Krisha.kz)",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": [
