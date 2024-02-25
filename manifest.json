@@ -2,11 +2,8 @@
   "author": "Jake, Inc.",
   "name": "Midnight Mode",
   "description": "Enjoy dark theme in popular sites of Kazakhstan (Kolesa.kz, Krisha.kz)",
-  "version": "1.0",
+  "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": [
-    "scripting"
-  ],
   "icons": {
     "16": "icons/night-mode-16.png",
     "32": "icons/night-mode-32.png",
@@ -17,14 +14,9 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.zakon.kz/*",
-        "https://aliexpress.ru/*",
-        "https://promotion.aliexpress.ru/*",
-        "https://shoppingcart.aliexpress.ru/*",
         "https://kolesa.kz/*",
         "https://krisha.kz/*",
-        "https://id.kolesa.kz/*",
-        "https://avtoelon.uz/*"
+        "https://id.kolesa.kz/*"
       ],
       "js": [
         "js/jquery-3.7.1.slim.min.js",
@@ -40,7 +32,6 @@
     {
       "matches": [
         "https://kolesa.kz/*",
-        "https://avtoelon.uz/*",
         "https://id.kolesa.kz/*"
       ],
       "js": [
@@ -64,38 +55,6 @@
       "css": [
         "css/krisha.css",
         "css/messages.css"
-      ],
-      "all_frames": true,
-      "run_at": "document_end",
-      "world": "ISOLATED"
-    },
-    {
-      "matches": [
-        "https://aliexpress.ru/*",
-        "https://promotion.aliexpress.ru/*",
-        "https://shoppingcart.aliexpress.ru/*"
-      ],
-      "js": [
-        "js/aliexpress.js"
-      ],
-      "css": [
-        "css/aliexpress.css",
-        "css/aliexpress_media.css",
-        "css/messages.css"
-      ],
-      "all_frames": true,
-      "run_at": "document_end",
-      "world": "ISOLATED"
-    },
-    {
-      "matches": [
-        "https://www.zakon.kz/*"
-      ],
-      "js": [
-        "js/zakon.js"
-      ],
-      "css": [
-        "css/zakon.css"
       ],
       "all_frames": true,
       "run_at": "document_end",
