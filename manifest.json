@@ -1,8 +1,8 @@
 {
   "author": "Jake, Inc.",
   "name": "Midnight Mode",
-  "description": "Enjoy dark theme in popular sites of Kazakhstan (Kolesa.kz, Krisha.kz)",
-  "version": "1.0.0",
+  "description": "Enjoy dark theme in popular sites of Kazakhstan (Kolesa.kz, Krisha.kz) and remove ad spam from olx.kz",
+  "version": "1.1.0",
   "manifest_version": 3,
   "icons": {
     "16": "icons/night-mode-16.png",
@@ -16,7 +16,9 @@
       "matches": [
         "https://kolesa.kz/*",
         "https://krisha.kz/*",
-        "https://id.kolesa.kz/*"
+        "https://id.kolesa.kz/*",
+        "https://olx.kz/*",
+        "https://www.olx.kz/*"
       ],
       "js": [
         "js/jquery-3.7.1.slim.min.js",
@@ -55,6 +57,21 @@
       "css": [
         "css/krisha.css",
         "css/messages.css"
+      ],
+      "all_frames": true,
+      "run_at": "document_end",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": [
+        "https://olx.kz/*",
+        "https://www.olx.kz/*"
+      ],
+      "js": [
+        "js/olx.js"
+      ],
+      "css": [
+        "css/olx.css"
       ],
       "all_frames": true,
       "run_at": "document_end",

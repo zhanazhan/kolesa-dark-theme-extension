@@ -1,10 +1,10 @@
-const initHide = (selectors) => {
+const initHide = (selectors, indefinite) => {
     var maxTrials = 10;
     var trialCounts = 0;
     var interval = null;
 
     const hideAd = () => {
-        if (maxTrials < trialCounts) {
+        if (!indefinite && maxTrials < trialCounts) {
             clearInterval(interval);
             return;
         }
