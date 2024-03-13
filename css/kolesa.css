@@ -380,7 +380,7 @@ input {
 
 .car-trim {
     background: #141414!important;
-    box-shadow: 0 2px 10px rgba(28, 24, 25, .1);
+    box-shadow: unset!important;
 }
 
 .car-trim__equipments {
@@ -1152,4 +1152,25 @@ body .credit-breadcrumbs span {
 
 body .credit-breadcrumbs .current span {
     background-color: #3f3f3f !important;
+}
+
+.a-specs__label:after {
+    border-bottom: 1px dotted #bbbec9!important;
+    bottom: 0!important;
+}
+
+
+.a-specs__label span {
+    color: #888b94!important;
+    background-color: unset!important;
+}
+
+.a-specs__value {
+    background: unset !important;
+    color: #888b94 !important;
+}
+
+.new-auto-slider__navigation {
+    background: #2d2d2d!important;
+    color: #adadad!important;
 }

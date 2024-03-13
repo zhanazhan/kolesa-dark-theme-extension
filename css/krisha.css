@@ -1022,4 +1022,11 @@ textarea {
     background-color: #171717!important;
 }
 
+.selectbox.enabled .selectbox-select .text {
+    color: #d3d3d3!important;
+}
+
+.modal-content {
+    background-color: #252525!important;
+}
 
