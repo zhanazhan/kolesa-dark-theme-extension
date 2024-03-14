@@ -1,0 +1,28 @@
+/* Dark mode styles */
+.baxter-container {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.baxter-placeholder--ad--baxter-top--0,
+.baxter-placeholder--ad--baxter-right-second--0,
+.baxter-placeholder--ad--baxter-right-third--0,
+.baxter-placeholder--adGallery--baxter-gallery-right--0,
+.baxter-placeholder--ads--div-gpt-layout-topover--0,
+.baxter-placeholder--ads--div-gpt-ad-listing-sidebar--0,
+.baxter-placeholder--homepage--div-gpt-ad-wideboard_top--0,
+.baxter-placeholder--pro--baxter-top--0 {
+    background-color: #333; /* Darker background color for ad placeholders */
+}
+
+.baxter-interstitial {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background for interstitial */
+}
+
+/* Dark mode specific styles end */
+
+/* Remove non-dark mode related styles */
+
+.baxter-inner-sticky, .baxter-inner-sticky-close-button, .baxter-interstitial-modal, .baxter-interstitial-modal-footer, .baxter-interstitial-modal-footer-content, .baxter-interstitial-modal-footer-content-title, .baxter-interstitial-modal-footer-content-subtitle, .baxter-interstitial-modal-footer-content-subtitle--hidden, .baxter-interstitial-modal-footer-close-btn, .baxter-interstitial-modal-footer-close-btn-title, .baxter-interstitial-modal-footer-close-btn-title-icon, .baxter-interstitial-overflow-hidden, .baxter-95, .baxter-95:before, .baxter-95:empty:before, .baxter-95 ~ .baxter-inner-sticky:before, .baxter-95 ~ .baxter-inner-sticky:empty:before, .baxter-111277, .baxter-352378720, .baxter-352378720:before, .baxter-352378720:empty:before, .baxter-352378720 ~ .baxter-inner-sticky:before, .baxter-352378720 ~ .baxter-inner-sticky:empty:before, .baxter-426288559, .baxter-426288559:before, .baxter-426288559:empty:before, .baxter-426288559 ~ .baxter-inner-sticky:before, .baxter-426288559 ~ .baxter-inner-sticky:empty:before, .baxter-1442097870, .baxter-1442097870:before, .baxter-1442097870:empty:before, .baxter-1442097870 ~ .baxter-inner-sticky:before, .baxter-1442097870 ~ .baxter-inner-sticky:empty:before, .baxter-1849760990, .baxter-1849760990:before, .baxter-1849760990:empty:before, .baxter-1849760990 ~ .baxter-inner-sticky:before, .baxter-1849760990 ~ .baxter-inner-sticky:empty:before, .baxter-1895871285, .baxter--1177318867, .baxter--485371922, .baxter--485371922:before, .baxter--485371922:empty:before, .baxter--485371922 ~ .baxter-inner-sticky:before, .baxter--485371922 ~ .baxter-inner-sticky:empty:before, .baxter--194706687, .baxter--194706687:before, .baxter--194706687:empty:before, .baxter--194706687 ~ .baxter-inner-sticky:before, .baxter--194706687 ~ .baxter-inner-sticky:empty:before, .baxter--385713639, .baxter--2033339058, .baxter--2033339058:before, .baxter--2033339058:empty:before, .baxter--2033339058 ~ .baxter-inner-sticky:before, .baxter--2033339058 ~ .baxter-inner-sticky:empty:before, .baxter--940339154, .baxter--940339154:before, .baxter--940339154:empty:before, .baxter--940339154 ~ .baxter-inner-sticky:before, .baxter--940339154 ~ .baxter-inner-sticky:empty:before, .baxter--1095689573, .baxter--1095689573:before, .baxter--1095689573:empty:before, .baxter--1095689573 ~ .baxter-inner-sticky:before, .baxter--1095689573 ~ .baxter-inner-sticky:empty:before, .baxter--1296066423, .baxter--1296066423:before, .baxter--1296066423:empty:before, .baxter--1296066423 ~ .baxter-inner-sticky:before, .baxter--1296066423 ~ .baxter-inner-sticky:empty:before, .baxter--1217012702, .baxter--1217012702:before, .baxter--1217012702:empty:before, .baxter--1217012702 ~ .baxter-inner-sticky:before, .baxter--1217012702 ~ .baxter-inner-sticky:empty:before, .baxter--723121778, .baxter--723121778:before, .baxter--723121778:empty:before, .baxter--723121778 ~ .baxter-inner-sticky:before, .baxter--723121778 ~ .baxter-inner-sticky:empty:before {
+    display: none; /* Remove non-dark mode related styles */
+}

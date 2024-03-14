@@ -65,12 +65,14 @@
     {
       "matches": [
         "https://olx.kz/*",
-        "https://www.olx.kz/*"
+        "https://*.olx.kz/*"
       ],
       "js": [
         "js/olx.js"
       ],
       "css": [
+        "css/olx-init.css",
+        "css/olx-init-2.css",
         "css/olx.css"
       ],
       "all_frames": true,
