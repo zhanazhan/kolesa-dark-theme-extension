@@ -83,7 +83,7 @@ const generateCreditDetails = (carPrice, downPayment, monthlyPayment, monthsCoun
             overPayment: formatCurrency(totalPaid - carPrice)
         },
         {
-            name: 'Процент',
+            name: 'Годовая ставка',
             interestRate: (interestRate/ (monthsCount / 12)).toFixed(2) + '%'
         }];
 }
