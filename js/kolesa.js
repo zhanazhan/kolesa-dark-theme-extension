@@ -12,14 +12,6 @@ const writeWhatsUpKolesa = async () => {
 const drawTable = (tableSelector, data) => {
     const id = 'table' + Math.floor(Math.random() * 1000);
     $(tableSelector).append($('<table/>').attr('id', id).addClass('datatable'));
-    const tbl_head = document.createElement("thead");
-    $.each(['#', 'Остаток', 'Платеж', 'Оплачено'], function () {
-        const tbl_row = tbl_head.insertRow();
-        $.each(this, function (k, v) {
-            const cell = tbl_row.insertCell();
-            cell.appendChild(document.createTextNode(v.toString()));
-        });
-    });
     const tbl_body = document.createElement("tbody");
     $.each(data, function () {
         const tbl_row = tbl_body.insertRow();
@@ -58,40 +50,64 @@ const generateCreditDetails = (carPrice, downPayment, monthlyPayment, monthsCoun
         remainingAmount -= monthlyPayment;
     }
 
-    const interestRate = ((totalPaid - carPrice) / carPrice) * 100;
+    const interestRate = ((totalPaid - carPrice) / (carPrice - downPayment)) * 100;
+    return dataLines({
+        carPrice,
+        downPayment,
+        loan: carPrice - downPayment,
+        monthsCount,
+        monthlyPayment,
+        totalMonthlyPayment: totalPaid - downPayment,
+        interestPaid: totalPaid - carPrice,
+        interestRate: (interestRate/ (monthsCount / 12)).toFixed(2) + '%'
+    });
+}
 
+const dataLines = (data) => {
+    const {carPrice, downPayment, loan, monthsCount, monthlyPayment, totalMonthlyPayment, interestPaid, interestRate, error} = data;
     return [{
             name: 'Цена авто',
-            overPayment: formatCurrency(carPrice)
+            overPayment: error ? error : formatCurrency(carPrice)
         },{
             name: 'Первоначальный взнос',
-            overPayment: formatCurrency(downPayment)
+            overPayment: error ? '' : formatCurrency(downPayment)
         },{
             name: 'Заемные средства',
-            overPayment: formatCurrency(carPrice - downPayment)
+            overPayment: error ? '' : formatCurrency(loan)
         },{
             name: 'Погашение за месяцев',
-            overPayment: monthsCount
+            overPayment: error ? '' : monthsCount
         },{
             name: 'Ежемесячно',
-            overPayment: formatCurrency(monthlyPayment)
+            overPayment: error ? '' : formatCurrency(monthlyPayment)
         },{
             name: 'Сумма ежемесячных',
-            overPayment: formatCurrency(totalPaid - downPayment)
+            overPayment: error ? '' : formatCurrency(totalMonthlyPayment)
         },{
             name: 'Переплата',
-            overPayment: formatCurrency(totalPaid - carPrice)
+            overPayment: error ? '' : formatCurrency(interestPaid)
         },
         {
             name: 'Годовая ставка',
-            interestRate: (interestRate/ (monthsCount / 12)).toFixed(2) + '%'
+            interestRate: error ? '' : interestRate
         }];
+}
+
+const errorMessage = (tableContainer, message) => {
+    drawTable(tableContainer, dataLines({error: message}));
 }
 
 const drawCredTable = (tableContainer) => {
     const offersCredit = $('#calcMonthPay');
     const invalidForm = $('.form-invalid');
-    if (!offersCredit || invalidForm) return;
+    if (offersCredit.length === 0) {
+        errorMessage(tableContainer, 'Кредит не предоставляется');
+        return;
+    }
+    if (invalidForm.length > 0) {
+        errorMessage(tableContainer, 'Ошибка данных');
+        return;
+    }
     const monthly = parseInt($('#calcMonthPay').text().replaceAll(' ', ''));
     const carPrice = parseInt($('#userPrice').val().replaceAll(' ', ''));
     const downPayment = parseInt($('#initPay').val().replaceAll(' ', ''));
@@ -124,5 +140,5 @@ $(() => {
     };
 
     $('.a-calculator__wrap').on('click', () => refreshTable());
-    $('.a-calculator__wrap input').on('blur', () => refreshTable());
+    $('.a-calculator__wrap input').on('change paste keyup', () => refreshTable());
 });

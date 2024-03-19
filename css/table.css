@@ -1,15 +1,9 @@
 :root {
     --primary-color: white;
     --secondary-color: rgb(61, 68, 73);
-    --highlight-color: #3282b8;
-
-    --dt-status-available-color: greenyellow;
-    --dt-status-away-color: lightsalmon;
-    --dt-status-offline-color: lightgray;
+    --highlight-color: #2a81dd;
 
     --dt-padding: 12px;
-    --dt-padding-s: 6px;
-    --dt-padding-xs: 2px;
 
     --dt-border-radius: 3px;
 
@@ -34,10 +28,12 @@
     color: var(--dt-text-color);
     margin: 0 auto;
     font-size: 12px;
+    width: 100%;
 }
 
 .datatable-container .datatable {
     border-collapse: collapse;
+    width: 100%;
 }
 
 .datatable-container .datatable,
@@ -62,4 +58,9 @@
 
 .datatable-container .datatable tbody tr:hover {
     background-color: var(--dt-hover-cell-color);
+}
+
+.cred-error {
+    font-size: 16px;
+    color: #dd5c7c!important;
 }
