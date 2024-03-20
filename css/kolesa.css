@@ -1174,3 +1174,16 @@ body .credit-breadcrumbs .current span {
     background: #2d2d2d!important;
     color: #adadad!important;
 }
+
+.group-service--advert-view {
+    background-color: #1a1a1a!important;
+    border: 1px solid #535353!important;
+}
+
+.group-service--advert-view .group-service__title {
+    color: rgb(145 145 145 / 90%)!important;
+}
+
+.group-service__duration {
+    color: rgb(159 159 159 / 60%)!important;
+}
