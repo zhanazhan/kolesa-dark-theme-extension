@@ -3,6 +3,10 @@
     --secondary-color: rgb(61, 68, 73);
     --highlight-color: #2a81dd;
 
+    --dt-status-success-color: #64bd38;
+    --dt-status-warn-color: #f73;
+    --dt-status-error-color: #f33;
+
     --dt-padding: 12px;
 
     --dt-border-radius: 3px;
@@ -19,6 +23,10 @@
     --dt-focus-color: var(--highlight-color);
     --dt-input-background-color: var(--secondary-color);
     --dt-input-color: var(--primary-color);
+}
+
+.material-icons {
+    font-size: 16px;
 }
 
 .datatable-container {
@@ -60,7 +68,14 @@
     background-color: var(--dt-hover-cell-color);
 }
 
-.cred-error {
-    font-size: 16px;
-    color: #dd5c7c!important;
+.datatable-container .datatable tbody tr .success {
+    color: var(--dt-status-success-color);
+}
+
+.datatable-container .datatable tbody tr .warn {
+    color: var(--dt-status-warn-color);
+}
+
+.datatable-container .datatable tbody tr .error {
+    color: var(--dt-status-error-color);
 }

@@ -13,12 +13,13 @@ const drawTable = (tableSelector, data) => {
     const id = 'table' + Math.floor(Math.random() * 1000);
     $(tableSelector).append($('<table/>').attr('id', id).addClass('datatable'));
     const tbl_body = document.createElement("tbody");
-    $.each(data, function () {
+    data.forEach(({name, value, className}) => {
         const tbl_row = tbl_body.insertRow();
-        $.each(this, function (k, v) {
-            const cell = tbl_row.insertCell();
-            cell.appendChild(document.createTextNode(v.toString()));
-        });
+        const cellName = tbl_row.insertCell();
+        cellName.appendChild(document.createTextNode(name));
+        const cellValue = tbl_row.insertCell();
+        cellValue.className = className;
+        cellValue.appendChild(document.createTextNode(value));
     });
     $(`#${id}`).append(tbl_body);
 }
@@ -59,7 +60,7 @@ const generateCreditDetails = (carPrice, downPayment, monthlyPayment, monthsCoun
         monthlyPayment,
         totalMonthlyPayment: totalPaid - downPayment,
         interestPaid: totalPaid - carPrice,
-        interestRate: (interestRate/ (monthsCount / 12)).toFixed(2) + '%'
+        interestRate: (interestRate/ (monthsCount / 12))
     });
 }
 
@@ -67,29 +68,37 @@ const dataLines = (data) => {
     const {carPrice, downPayment, loan, monthsCount, monthlyPayment, totalMonthlyPayment, interestPaid, interestRate, error} = data;
     return [{
             name: 'Цена авто',
-            overPayment: error ? error : formatCurrency(carPrice)
+            value: error ? error : formatCurrency(carPrice),
+            className: '',
         },{
             name: 'Первоначальный взнос',
-            overPayment: error ? '' : formatCurrency(downPayment)
+            value: error ? '' : formatCurrency(downPayment),
+            className: carPrice * 0.4 >= downPayment ? '' : (carPrice * 0.6 >= downPayment ? 'warn' : 'success'),
         },{
             name: 'Заемные средства',
-            overPayment: error ? '' : formatCurrency(loan)
+            value: error ? '' : formatCurrency(loan),
+            className: loan >= 17_000_000 ? 'error' : (loan >= 10_000_000 ? 'warn' : 'success'),
         },{
             name: 'Погашение за месяцев',
-            overPayment: error ? '' : monthsCount
+            value: error ? '' : monthsCount,
+            className: monthsCount >= 48 ? 'error' : (monthsCount >= 24 ? 'warn' : 'success'),
         },{
             name: 'Ежемесячно',
-            overPayment: error ? '' : formatCurrency(monthlyPayment)
+            value: error ? '' : formatCurrency(monthlyPayment),
+            className: monthlyPayment < 300_000 ? 'success' : (monthlyPayment < 400_000 ? 'warn' : ''),
         },{
             name: 'Сумма ежемесячных',
-            overPayment: error ? '' : formatCurrency(totalMonthlyPayment)
+            value: error ? '' : formatCurrency(totalMonthlyPayment),
+            className: loan < totalMonthlyPayment ? 'error' : (loan * 0.5 < totalMonthlyPayment ? 'warn' : 'success'),
         },{
             name: 'Переплата',
-            overPayment: error ? '' : formatCurrency(interestPaid)
+            value: error ? '' : formatCurrency(interestPaid),
+            className: loan * 0.8 < interestPaid ? 'error' : (loan * 0.5 < interestPaid ? 'warn' : 'success'),
         },
         {
             name: 'Годовая ставка',
-            interestRate: error ? '' : interestRate
+            value: error ? '' : interestRate.toFixed(2) + '%',
+            className: interestRate > 17 ? 'error' : (interestRate > 16 ? 'warn' : ''),
         }];
 }
 
