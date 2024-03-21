@@ -531,7 +531,11 @@ input {
 }
 
 #primary-menu li.menu-item-object-category a {
-    color: #b7b7b7 !important;
+    color: #d7d7d7 !important;
+}
+
+#primary-menu li.current-menu-item a {
+    color: #111111 !important;
 }
 
 header nav li.current-menu-item, header nav li.current-post-parent, header nav li a:hover {
@@ -1187,3 +1191,43 @@ body .credit-breadcrumbs .current span {
 .group-service__duration {
     color: rgb(159 159 159 / 60%)!important;
 }
+
+.breadcrumbs {
+    margin: 23px 0 12px;
+    color: #bbbec9!important;
+}
+
+#main-navigation header nav li.current-menu-item, #main-navigation header nav li.current-post-parent, #main-navigation header nav li a:hover {
+    background-color: #343434 !important;
+}
+
+.testdrive-sidebar-tab a {
+    color: #cdcdcd!important;
+}
+
+#show-more {
+    border: 1px solid #000000!important;
+    color: #000000!important;
+    background: #cfcbcb!important;
+}
+
+.format-selector {
+    color: #bdbdbd!important;
+}
+
+#vehicle-type-tabs {
+    background-color: #141414!important;
+}
+.page-searchform #searchform {
+    border: 1px solid #141414!important;
+    background: #141414!important;
+}
+
+.search-example {
+    color: #ebebeb!important;
+}
+h1.page-title, h1.entry-title {
+    color: #ebebeb!important;
+}
+
+
