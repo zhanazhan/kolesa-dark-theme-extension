@@ -42,6 +42,7 @@
       ],
       "css": [
         "css/kolesa.css",
+        "css/kolesa_tax.css",
         "css/messages.css"
       ],
       "all_frames": true,

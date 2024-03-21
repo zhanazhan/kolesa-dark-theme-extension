@@ -1,0 +1,80 @@
+ul#vihicle-type li a {
+    border-bottom: 1px dotted!important;
+    color: #b7c2d3!important; /* Adjusted color for dark mode */
+}
+
+ul#vihicle-type li.selected div {
+    background-color: #303030!important; /* Adjusted background color for dark mode */
+}
+
+div#auto, div#truck, div#bus, div#machinary {
+    background-color: #303030!important; /* Adjusted background color for dark mode */
+}
+
+div#auto #tax div small {
+    color: #7a858f!important; /* Adjusted color for dark mode */
+}
+
+div#auto #tax div input#text {
+    border: solid 1px #7a858f!important; /* Adjusted border color for dark mode */
+}
+
+div#auto #tax div input#button {
+    background-color: #0056b3!important; /* Adjusted background color for dark mode */
+    color: #b7c2d3!important;
+}
+
+div#auto #tax div input#button:hover {
+    background-color: #177ab3!important; /* Adjusted hover background color for dark mode */
+}
+
+@media screen and (max-width: 450px) {
+
+    #primary {
+        background: #1f1f1f!important; /* Adjusted background color for dark mode */
+    }
+
+    .tax-title {
+        color: #b7c2d3!important; /* Adjusted color for dark mode */
+    }
+
+    .tax-calculator {
+        background: #1f1f1f!important; /* Adjusted background color for dark mode */
+        box-shadow: 0 2px 10px 0 rgb(0 0 0 / 10%)!important;
+    }
+
+    div#auto #tax div {
+        color: #b7c2d3!important; /* Adjusted color for dark mode */
+    }
+
+    #mobile-vihicle-type {
+        background: #1f1f1f!important; /* Adjusted background color for dark mode */
+        border: 1px solid rgba(0, 0, 0, .2)!important; /* Adjusted border color for dark mode */
+    }
+
+    table tr:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, .1)!important; /* Adjusted border color for dark mode */
+    }
+
+    #mobile-vihicle-type select {
+        background: transparent!important;
+        color: #b7c2d3!important; /* Adjusted color for dark mode */
+    }
+
+    .tax-calculator div#auto #tax .input-group small {
+        color: #7a858f!important; /* Adjusted color for dark mode */
+    }
+
+    .tax-calculator div#auto #tax .input-group input#text {
+        border: 1px solid rgba(255, 255, 255, .2)!important; /* Adjusted border color for dark mode */
+    }
+
+    .tax-calculator div#auto #tax .input-group input#button {
+        background-color: #0056b3!important; /* Adjusted background color for dark mode */
+        color: #b7c2d3!important;
+    }
+
+    div#auto #tax div#auto_text {
+        color: #b7c2d3!important; /* Adjusted color for dark mode */
+    }
+}
