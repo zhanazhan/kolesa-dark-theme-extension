@@ -1230,4 +1230,11 @@ h1.page-title, h1.entry-title {
     color: #ebebeb!important;
 }
 
+.group-service--advert-view {
+    background-color: #535353!important;
+    border: 1px solid #cdcdcd!important;
+}
 
+.group-service--advert-view .group-service__title, .group-service__duration {
+    color: #e6e4e5!important;
+}
