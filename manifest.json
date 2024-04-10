@@ -1,7 +1,7 @@
 {
   "author": "Jake, Inc.",
   "name": "Midnight Mode",
-  "description": "Enjoy dark theme in popular sites of Kazakhstan (Kolesa.kz, Krisha.kz) and remove ad spam from olx.kz",
+  "description": "A Chrome extension tailored to optimize browsing experience on various local websites within Kazakhstan. Features include a dark theme, ad blocker, and useful extensions such as loan details and more functionalities to come.",
   "version": "1.1.3",
   "manifest_version": 3,
   "icons": {
