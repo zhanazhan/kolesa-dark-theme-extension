@@ -1149,7 +1149,10 @@ body .credit-breadcrumbs span {
     color: #ececec !important;
 }
 
-
 body .credit-breadcrumbs .current span {
     background-color: #3f3f3f !important;
+}
+
+.offer__option-label {
+    background-color: #313131!important;
 }
