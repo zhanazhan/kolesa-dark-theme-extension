@@ -1242,3 +1242,34 @@ h1.page-title, h1.entry-title {
 .popular-suggestions {
     background-color: unset!important;
 }
+
+
+.offer__option-label {
+    background-color: #2f2f2f!important;
+}
+
+/* new update 2025-01-21 */
+.cabinet-menu__link {
+    color: #dadada!important;
+}
+.cabinet__secondary-header, .layout__secondary-header {
+    background: #000000!important;
+}
+.user-menu, .categories-menu {
+    color: #989898!important;
+}
+.cabinet-menu__link.isSelected {
+    background: #434343!important;
+}
+.categories-menu__link.isSelected {
+    background-color: #454545!important;
+}
+.categories-menu__icon, .categories-menu__link {
+    color: #dadada!important;
+}
+.categories-menu__icon.withAccent, .categories-menu__link.isSelected {
+    color: #1a7beb!important;
+}
+.arrow-link-multiple:hover span.categories-menu__link, .arrow-link:hover span.categories-menu__link, .categories-menu__link:focus-within, .categories-menu__link:hover {
+    background-color: #434343!important;
+}
