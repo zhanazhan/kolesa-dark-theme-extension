@@ -15,7 +15,7 @@ body {
     color: #cfcfcf!important;
 }
 
-.offer__parameters dt {
+.offer__parameters dt, .match-cars-side__item {
     color: #a0a0a0!important;
     background: unset!important;
 }
