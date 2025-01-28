@@ -1273,3 +1273,6 @@ h1.page-title, h1.entry-title {
 .arrow-link-multiple:hover span.categories-menu__link, .arrow-link:hover span.categories-menu__link, .categories-menu__link:focus-within, .categories-menu__link:hover {
     background-color: #434343!important;
 }
+.dealer-offer__item {
+    background: #313131!important;
+}
