@@ -72,11 +72,6 @@
       "js": [
         "js/olx.js"
       ],
-      "css": [
-        "css/olx-init.css",
-        "css/olx-init-2.css",
-        "css/olx.css"
-      ],
       "all_frames": true,
       "run_at": "document_end",
       "world": "ISOLATED"
