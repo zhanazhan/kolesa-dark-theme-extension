@@ -234,8 +234,13 @@ input {
 }
 
 .credit-label, .resale-label {
-    color: #000!important;
-    background-color: #cfcfcf!important;
+    background-color: #2e2c2c !important;
+    color: #919191 !important;
+}
+
+.credit-label__badge {
+    background-color: #36a300!important;
+    color: #000000!important;
 }
 
 .search-block__shop-filter-badge, .search-block__user-filter-badge {
@@ -1275,4 +1280,10 @@ h1.page-title, h1.entry-title {
 }
 .dealer-offer__item {
     background: #313131!important;
+}
+.resale-benefits {
+    color: #8e8e90!important;
+}
+.resale-benefits__action {
+    background-color: #444444!important;
 }
