@@ -57,6 +57,10 @@ body {
     color: #b0b0b0!important;
 }
 
+.related-item {
+    background-color: transparent !important;
+}
+
 .ui-footer {
     background: #303030!important;
     color: #a0a0a0!important;
@@ -1289,4 +1293,7 @@ h1.page-title, h1.entry-title {
 }
 .user-dropdown-menu__user-info {
     background-color: #2b2b2c!important;
+}
+.user-dropdown-menu {
+    color: #dadbdc !important;
 }
