@@ -1,0 +1,98 @@
+header, body.bg-grey, main {
+    background-color: #000000!important;
+    color: #b2b5b7!important;
+}
+
+.nav.nav-up1 a.nav-link, .nav.nav-up1 a.nav-link:visited {
+    color: #a2a3a4!important;
+}
+
+a div.media, a div.media:visited {
+    color: #8397a4!important;
+}
+
+a {
+    color: #b2b5b7!important;
+}
+
+.navbar-dark {
+    background-color: #35393c!important;
+}
+
+.seo {
+    color: #a0abb1!important;
+}
+
+.nav-link.pricelist {
+    background-color: #303030!important;
+}
+
+.maincard, .row-sort {
+    background-color: #1f1f1f !important;
+    color: #b2b2b2 !important;
+}
+
+ul.card-buy-list li {
+    color: #8b9195!important;
+}
+
+.col-mcard3 {
+    color: #afbcc4!important;
+}
+
+.left-nav {
+    background-color: #4c5152!important;
+    color: #adb7bd!important;
+}
+
+.left-nav h6, .left-nav .h6, .left-nav-filters h6, .left-nav-filters .h6,
+.custom-control-input:disabled ~ .custom-control-label {
+    color: #b5c0c7!important;
+}
+
+.dropdown-menu, .mini-cart-buttons-holder, .navbar .dropdown-menu {
+    color: #e6e6e6!important;
+    background-color: #454545!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #b5c0c7!important;
+}
+
+.card-buy-block {
+    background-color: #1b1c1c !important;
+}
+.grid-striped .row:nth-of-type(odd) {
+    background-color: rgb(55 57 59 / 60%)!important;
+}
+.grid-striped .row:hover {
+    background-color: #454545!important;
+}
+
+.btn-default {
+    background-color: #2b2f31!important;
+    border: 1px solid #555!important;
+}
+
+.viewicons > .active {
+    background-color: #0b6faf; /* already dark-friendly */
+}
+
+[data-role="floating-message"] {
+    background: rgba(255, 255, 255, 0.08)!important; /* lighter on dark background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7)!important;
+    color: #f2f2f2!important;
+}
+
+[data-role="floating-message"] a {
+    color: #dfefff!important;
+}
+
+.help-block {
+    color: #ccc!important; /* assuming text—adjustable based on your needs */
+}
+
+h1 > small, .h1 > small {
+    color: #869fae!important;
+}
+

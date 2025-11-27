@@ -18,7 +18,9 @@
         "https://krisha.kz/*",
         "https://id.kolesa.kz/*",
         "https://olx.kz/*",
-        "https://www.olx.kz/*"
+        "https://www.olx.kz/*",
+        "https://pulser.kz/*",
+        "https://*.pulser.kz/*"
       ],
       "js": [
         "js/jquery-3.7.1.slim.min.js",
@@ -71,6 +73,21 @@
       ],
       "js": [
         "js/olx.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_end",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": [
+        "https://pulser.kz/*",
+        "https://*.pulser.kz/*"
+      ],
+      "js": [
+        "js/pulser.js"
+      ],
+      "css": [
+        "css/pulser.css"
       ],
       "all_frames": true,
       "run_at": "document_end",
