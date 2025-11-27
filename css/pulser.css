@@ -157,3 +157,31 @@ img[src$="svg"] {
     color: #212529 !important;
 }
 
+.left-nav-filters {
+    background-color: #266424!important;
+    border: 1px solid #78a086!important;
+}
+
+.pulser__manufacturer-filter-head {
+    color: #c3c6c9!important;
+}
+
+.page-item.disabled .page-link {
+    color: #c1c7cd!important;           /* lighter text for dark bg */
+    background-color: #2a2e33!important; /* dark background */
+    border-color: #444c54!important;     /* darker border */
+}
+
+.page-link {
+    color: #c1c7cd!important;           /* lighter text */
+    background-color: #2a2e33!important; /* dark background */
+    border-color: #444c54!important;     /* dark border */
+}
+.page-item.active .page-link {
+    color: #fff!important;               /* text stays white for contrast */
+    background-color: #5a6670!important; /* slightly lighter than surrounding dark bg */
+    border-color: #5a6670!important;     /* match background for seamless look */
+}
+
+
+
