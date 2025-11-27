@@ -1,30 +1,30 @@
 header, body.bg-grey, main {
-    background-color: #000000!important;
-    color: #b2b5b7!important;
+    background-color: #000000 !important;
+    color: #b2b5b7 !important;
 }
 
 .nav.nav-up1 a.nav-link, .nav.nav-up1 a.nav-link:visited {
-    color: #a2a3a4!important;
+    color: #a2a3a4 !important;
 }
 
 a div.media, a div.media:visited {
-    color: #8397a4!important;
+    color: #8397a4 !important;
 }
 
 a {
-    color: #b2b5b7!important;
+    color: #b2b5b7 !important;
 }
 
 .navbar-dark {
-    background-color: #35393c!important;
+    background-color: #35393c !important;
 }
 
 .seo {
-    color: #a0abb1!important;
+    color: #a0abb1 !important;
 }
 
 .nav-link.pricelist {
-    background-color: #303030!important;
+    background-color: #303030 !important;
 }
 
 .maincard, .row-sort {
@@ -33,45 +33,47 @@ a {
 }
 
 ul.card-buy-list li {
-    color: #8b9195!important;
+    color: #8b9195 !important;
 }
 
 .col-mcard3 {
-    color: #afbcc4!important;
+    color: #afbcc4 !important;
 }
 
 .left-nav {
-    background-color: #4c5152!important;
-    color: #adb7bd!important;
+    background-color: #4c5152 !important;
+    color: #adb7bd !important;
 }
 
 .left-nav h6, .left-nav .h6, .left-nav-filters h6, .left-nav-filters .h6,
 .custom-control-input:disabled ~ .custom-control-label {
-    color: #b5c0c7!important;
+    color: #b5c0c7 !important;
 }
 
 .dropdown-menu, .mini-cart-buttons-holder, .navbar .dropdown-menu {
-    color: #e6e6e6!important;
-    background-color: #454545!important;
+    color: #e6e6e6 !important;
+    background-color: #454545 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #b5c0c7!important;
+    color: #b5c0c7 !important;
 }
 
 .card-buy-block {
     background-color: #1b1c1c !important;
 }
+
 .grid-striped .row:nth-of-type(odd) {
-    background-color: rgb(55 57 59 / 60%)!important;
+    background-color: rgb(55 57 59 / 60%) !important;
 }
+
 .grid-striped .row:hover {
-    background-color: #454545!important;
+    background-color: #454545 !important;
 }
 
 .btn-default {
-    background-color: #2b2f31!important;
-    border: 1px solid #555!important;
+    background-color: #2b2f31 !important;
+    border: 1px solid #555 !important;
 }
 
 .viewicons > .active {
@@ -79,20 +81,79 @@ ul.card-buy-list li {
 }
 
 [data-role="floating-message"] {
-    background: rgba(255, 255, 255, 0.08)!important; /* lighter on dark background */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7)!important;
-    color: #f2f2f2!important;
+    background: rgba(255, 255, 255, 0.08) !important; /* lighter on dark background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7) !important;
+    color: #f2f2f2 !important;
 }
 
 [data-role="floating-message"] a {
-    color: #dfefff!important;
+    color: #dfefff !important;
 }
 
 .help-block {
-    color: #ccc!important; /* assuming text—adjustable based on your needs */
+    color: #ccc !important; /* assuming text—adjustable based on your needs */
 }
 
 h1 > small, .h1 > small {
-    color: #869fae!important;
+    color: #869fae !important;
+}
+/*
+img[src$="jpg"] {
+    filter: invert(.75);
+}
+
+img[src$="svg"] {
+    filter: invert(.5);
+}
+*/
+.dropdown-item-text {
+    color: #869fae !important;
+}
+
+.dropdown-menu {
+    color: #e5e5e5 !important; /* light text for dark background */
+    background-color: #2b2b2b !important; /* dark surface */
+    border: 1px solid rgba(255, 255, 255, 0.15) !important; /* inverted border tone */
+}
+
+.btn-default {
+    background-color: #2b2f31 !important;
+    border: 1px solid #555555 !important;
+}
+
+.viewicons > .active {
+    background-color: #0b6faf !important;
+}
+
+[data-role="floating-message"] {
+    background: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+}
+
+[data-role="floating-message"] a {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b !important;
+    background-color: #f8f9fa !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff !important;
+    background-color: #3b474f !important;
+}
+
+.dropdown-item.disabled, .dropdown-item:disabled {
+    color: #3b474f !important;
+}
+
+.dropdown-header {
+    color: #3b474f !important;
+}
+
+.dropdown-item-text {
+    color: #212529 !important;
 }
 
