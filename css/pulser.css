@@ -2,6 +2,9 @@ header, body.bg-grey, main {
     background-color: #000000 !important;
     color: #b2b5b7 !important;
 }
+.bg-total {
+    background-color: #000000 !important;
+}
 
 .nav.nav-up1 a.nav-link, .nav.nav-up1 a.nav-link:visited {
     color: #a2a3a4 !important;
@@ -17,6 +20,14 @@ a {
 
 .navbar-dark {
     background-color: #35393c !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #35393c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #a0abb1 !important;
 }
 
 .seo {
@@ -183,5 +194,28 @@ img[src$="svg"] {
     border-color: #5a6670!important;     /* match background for seamless look */
 }
 
+#cart input {
+    border-top: 1px solid #000000!important;
+    border-bottom: 1px solid #000000!important;
+    background-color: #6e6e6e!important;
+    color: #fff!important;
+}
 
+#cart .input-group input[type='button'] {
+    background-color: #6e6e6e!important;
+    color: #bcbcbc!important;
+}
 
+.btn-acs {
+    background: #292b2c no-repeat .5rem .35rem!important;
+}
+
+.btn-light {
+    color: #f8f9fa!important;
+    background-color: #2f2f2f!important;
+    border-color: #f8f9fa!important;
+}
+
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    background-color: #a8a8a8!important;
+}
