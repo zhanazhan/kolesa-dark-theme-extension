@@ -243,3 +243,14 @@ footer img.logo, img.round, .icon_form {
     filter: invert(1)!important;
 }
 
+jdiv {
+    background-color: #3b474f !important;
+    -webkit-text-fill-color: #DFDFDFFF!important;
+}
+
+jdiv[class^="textWrap"], jdiv[class^="textWrap"] jdiv {
+    background: #ccc !important;
+    color: black !important;
+    -webkit-text-fill-color: black !important;
+}
+
