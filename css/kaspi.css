@@ -1,0 +1,152 @@
+body, html {
+    background-color: #363636!important;
+    color: #acacac!important;
+}
+
+.topbar, .header {
+    background-color: #1e1e1e!important;
+}
+
+.navigation, .search-bar__input-field, .search-bar__shop-link, .search-bar__history-list, .nav, .search-bar__logo {
+    background-color: #1e1e1e!important;
+    border-bottom: 1px solid #7a7a7a!important;
+    color: #acacac!important;
+}
+
+.navigation__link, .topbar-navigation, .search-bar__history-clean, .footer__title, .category-item__title {
+    color: #acacac!important;
+}
+
+.footer__link, .vertical-menu__item a {
+    color: #8e8d8d !important;
+}
+
+button {
+    color: #acacac!important;
+}
+
+.category-item {
+    background: #5e5b5b!important;
+}
+
+.item-card {
+    background: #5e5b5b!important;
+    border: 1px solid #898989!important;
+}
+
+.navigation__item:hover, .navigation-sub-menu, .navigation__sub-menu-wrapper, .nav__sub-content, .nav__flex-content {
+    background: #3c3c3c !important;
+}
+
+.navigation-sub-menu__grid-col-list a, .navigation-sub-menu__grid-col-title, .navigation-sub-menu__single-items a, .current-location {
+    color: #f2f2f2!important;
+}
+
+.js .select._checked .select__hidden-select:focus~.select__title, .js .select._has-value .select__hidden-select:focus~.select__title, .select._checked .js .select__hidden-select:focus~.select__title, .select._checked .select__title, .select._has-value .js .select__hidden-select:focus~.select__title, .select._has-value .select__title {
+    color: #acacac!important;
+}
+
+.js .select__hidden-select:focus~.select__title, .select__title, .select__list,
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+    border: 1px solid #898989!important;
+    background: #5e5b5b!important;
+}
+
+.js .select__hidden-select:focus~.tree__item.select__title>.tree__link, .tree__item._active>.tree__link {
+    color: #d1d1d1!important;
+}
+
+._rounded-arrow-down-active.tree__item._expandable:before, ._small._rounded-arrow-down-active.reviews__empty-icon, .dialog._window-full ._small._rounded-arrow-down-active.dialog__close, .dialog._window-full ._small._rounded-arrow-down-active.nav__sub-close, .icon._small._rounded-arrow-down-active, .tree._spoiler ._small._rounded-arrow-down-active.tree__item._expanded:before, .tree._spoiler .tree__item._expandable._expanded>.tree__item._expanded.tree__item-arrow:before, .tree._spoiler .tree__item._expandable>._rounded-arrow-down-active.tree__item._expanded.tree__item-arrow:before, .tree._spoiler .tree__item._expanded._expandable:before, .tree__item._expandable._expanded:before, .tree__item._expandable._expanded>.tree__item-arrow, .tree__item._expandable._expanded>.tree__item._expandable.tree__item-arrow:before, .tree__item._expandable>._rounded-arrow-down-active.tree__item-arrow {
+    filter: invert(0.7)!important;
+}
+._small._rounded-arrow.reviews__empty-icon, .dialog._window-full ._small._rounded-arrow.dialog__close, .dialog._window-full ._small._rounded-arrow.nav__sub-close, .dialog._window-full ._small.dialog__close.tree__item._expandable:before, .dialog._window-full ._small.tree__item._expandable.nav__sub-close:before, .tree._spoiler ._small._rounded-arrow.tree__item._expanded:before, .tree._spoiler .tree__item._expandable>.tree__item._expanded.tree__item-arrow:before, .tree._spoiler .tree__item._expanded._expandable:before, .tree__item._expandable:before, .tree__item._expandable>.tree__item-arrow, .tree__item._expandable>.tree__item._expandable.tree__item-arrow:before {
+    filter: invert(0.7)!important;
+}
+.filters__filter-row._active, .js .select__hidden-select:focus~.filters__filter-row.select__title {
+    color: #d1d1d1 !important;
+}
+
+.item-card__prices-price, .item__price-once {
+    color: #d1d1d1 !important;
+}
+
+.current-location__dialog-list-el._active, .item-card__instalment .item-card__prices-price, .item__price-month, .js .select__hidden-select:focus~.current-location__dialog-list-el.select__title, .label {
+    color: #5e5b5b!important;
+}
+
+.js .select__hidden-select:focus~.pagination__el.select__title, .pagination__el._active, .pagination__el:hover:not(._disabled) {
+    background: #0b0b0b!important;
+    border-color: #dcdcdc !important;
+    color: #c5c0c0!important;
+}
+
+.tree__link:hover {
+    color: #fff2f2!important;
+}
+
+.js .select__hidden-select:focus~.nav__el.select__title, .nav__el._active {
+    background: #5e5b5b!important;
+}
+
+.item {
+    border: 1px solid #2c2c2c!important;
+    background: #090909!important;
+}
+
+._red.catalog-slider__main-button, ._red.offer-selection__tab, .button._red {
+    background: #494646!important;
+    color: #fff!important;
+    border: 1px solid #6e6b6b!important;
+}
+
+.item__sku {
+    color: #999;
+    background: unset!important;
+}
+
+.item__sku:before {
+    content: unset!important;
+}
+
+.offer-selection, .item-content__inner, .merchant-profile__inner, .reviews__inner, .specifications-list {
+    border: 1px solid #e5e5e5;
+    background: unset !important;
+}
+
+.description h2 {
+    border-top: 14px solid #000000 !important;
+}
+
+.tabs-content__tab._active {
+    background: #5f5e5e!important;
+    border: 1px solid #dcdcdc!important;
+}
+
+.specifications-list__spec-term-text, .specifications-list__spec-definition, .specifications-list__spec-term {
+    background: unset!important;
+}
+
+._blue-light._active.catalog-slider__main-button, ._blue-light._active.offer-selection__tab, ._blue-light.catalog-slider__main-button:focus, ._blue-light.catalog-slider__main-button:hover, ._blue-light.offer-selection__tab:focus, ._blue-light.offer-selection__tab:hover, .button._blue-light._active, .button._blue-light:focus, .button._blue-light:hover, .js .select__hidden-select:focus~._blue-light.catalog-slider__main-button.select__title, .js .select__hidden-select:focus~._blue-light.offer-selection__tab.select__title, .js .select__hidden-select:focus~.button._blue-light.select__title {
+    background: #2a2a2a!important;
+    border-color: #131313 !important;
+    color: white!important;
+}
+
+._blue-light.catalog-slider__main-button, ._blue-light.offer-selection__tab, .button._blue-light {
+    background: #717171 !important;
+    border-color: #2a2a2a !important;
+    color: #dcdcdc!important;
+}
+
+._secondary.catalog-slider__main-button, ._secondary.offer-selection__tab, .button._secondary {
+    color: #cacaca!important;
+    background: #0c0c0c!important;
+}
+
+.topbar__nav-link {
+    color: rgb(215 215 215 / 40%)!important;
+}
+
+.dialog {
+    background: #373737!important;
+}

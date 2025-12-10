@@ -20,7 +20,9 @@
         "https://olx.kz/*",
         "https://www.olx.kz/*",
         "https://pulser.kz/*",
-        "https://*.pulser.kz/*"
+        "https://*.pulser.kz/*",
+        "https://*.kaspi.kz/*",
+        "https://*.kaspi.kz/*"
       ],
       "js": [
         "js/jquery-3.7.1.slim.min.js",
@@ -88,6 +90,21 @@
       ],
       "css": [
         "css/pulser.css"
+      ],
+      "all_frames": true,
+      "run_at": "document_end",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": [
+        "https://*.kaspi.kz/*",
+        "https://*.kaspi.kz/*"
+      ],
+      "js": [
+        "js/kaspi.js"
+      ],
+      "css": [
+        "css/kaspi.css"
       ],
       "all_frames": true,
       "run_at": "document_end",
