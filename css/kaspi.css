@@ -30,8 +30,12 @@ button {
 }
 
 .item-card {
-    background: #5e5b5b!important;
+    background: unset!important;
     border: 1px solid #898989!important;
+}
+
+.item-card__info:before {
+    background: #444242!important;
 }
 
 .navigation__item:hover, .navigation-sub-menu, .navigation__sub-menu-wrapper, .nav__sub-content, .nav__flex-content {
