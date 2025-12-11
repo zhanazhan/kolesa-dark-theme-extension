@@ -1162,7 +1162,6 @@ body .credit-breadcrumbs span {
     color: #ececec !important;
 }
 
-
 body .credit-breadcrumbs .current span {
     background-color: #3f3f3f !important;
 }
@@ -1311,4 +1310,33 @@ h1.page-title, h1.entry-title {
 
 .a-credit-calc {
     color: #bcbcbc!important;
+}
+
+.offer__option-label {
+    background-color: #313131!important;
+}
+.layout__secondary-header {
+    background: #393939!important;
+}
+.categories-menu__link {
+    color: #989898!important;
+}
+.categories-menu__link.isSelected {
+    background-color: #393939!important;
+}
+.a-credit-calc {
+    background-color: inherit!important;
+    color: inherit!important;
+}
+.ui-text-field__label, .a-credit-calc__label {
+    color: #959595!important;
+}
+.a-credit-calc__monthpay {
+    background-color: #121212!important;
+}
+.a-credit-calc__amount {
+    color: #535353!important;
+}
+.related-item {
+    background-color: inherit!important;
 }
