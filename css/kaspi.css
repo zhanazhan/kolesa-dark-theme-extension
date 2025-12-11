@@ -360,3 +360,7 @@ tr {
 .filters__spoiler:hover {
     color: #80bddd!important;
 }
+
+._search.tree__item._expandable:before, ._small._search.reviews__empty-icon, .dialog._window-full ._small._search.dialog__close, .dialog._window-full ._small._search.nav__sub-close, .icon._small._search, .tree._spoiler ._search.tree__item._expanded._expandable:before, .tree._spoiler ._small._search.tree__item._expanded:before, .tree._spoiler .tree__item._expandable>._search.tree__item._expanded.tree__item-arrow:before, .tree__item._expandable>._search.tree__item-arrow {
+    filter: invert(1);
+}
