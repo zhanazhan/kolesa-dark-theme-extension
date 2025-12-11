@@ -89,8 +89,17 @@ input[type=date], input[type=datetime-local], input[type=datetime], input[type=e
     color: #c5c0c0!important;
 }
 
-.filters__filter-row._active, .js .select__hidden-select:focus~.filters__filter-row.select__title {
+body .filters__filter-row._active, body  .js .select__hidden-select:focus~.filters__filter-row.select__title {
     color: #49ca64 !important;
+}
+
+input[type=checkbox]:checked._check+label.form__checkbox::before {
+    filter: invert(1);
+}
+
+input[type=checkbox]+label.form__checkbox, input[type=checkbox]+label.form__radio, input[type=radio]+label.form__checkbox, input[type=radio]+label.form__radio {
+    border: 1px solid #dcdcdc!important;
+    background: #5e5b5b!important;
 }
 
 .js .select__hidden-select:focus~.nav__el.select__title, .nav__el._active {
