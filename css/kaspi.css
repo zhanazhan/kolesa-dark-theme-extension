@@ -151,6 +151,43 @@ input[type=date], input[type=datetime-local], input[type=datetime], input[type=e
     color: rgb(215 215 215 / 40%)!important;
 }
 
+.topbar__logo img {
+    filter: invert(1);
+}
+
 .dialog {
     background: #373737!important;
+}
+
+.specifications-list__spec-term:before {
+    color: #4a4a4a !important;
+}
+
+.js .select__hidden-select:focus~.loan-selector__el.select__title, .loan-selector__el._active {
+    background: #ffd300!important;
+    color: black!important;
+}
+
+.container {
+    background: unset!important;
+    border: 1px solid #6a6a6a!important;
+}
+
+.merchant-view__tab-container {
+    border: 1px solid #6a6a6a!important;
+    background: unset !important;
+}
+
+.tabs-content__tab._active {
+    border: 1px solid #6a6a6a!important;
+    color: #bfbfbf!important;
+}
+
+.nav__sub-el-link, .topbar__nav-list-item {
+    color: #bfbfbf!important;
+}
+
+.topbar__nav-wrapper {
+    color: #cacaca!important;
+    background: #0c0c0c!important;
 }
