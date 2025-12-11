@@ -282,3 +282,41 @@ textarea.inputField__E59gq,textarea.inputField__E59gq:focus {
 .iconAttach2__d_gBM {
     background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20fill-rule%3D%22nonzero%22%20d%3D%22M16.5%208v9.5c0%202.21-1.79%204-4%204s-4-1.79-4-4V7a2.5%202.5%200%200%201%205%200v8.5c0%20.55-.45%201-1%201s-1-.45-1-1V8H10v7.5a2.5%202.5%200%200%200%205%200V7c0-2.21-1.79-4-4-4S7%204.79%207%207v10.5c0%203.04%202.46%205.5%205.5%205.5s5.5-2.46%205.5-5.5V8h-1.5z%22/%3E%3C/svg%3E")!important;
 }
+
+.card {
+    background-color: unset !important;
+}
+
+.slick-prev, .slick-next {
+    color: #ccc !important;
+    background-color: #000000 !important;
+}
+
+.card-footer {
+    background-color: unset !important;
+}
+
+.holidays {
+    background-color: unset !important;
+}
+
+.holidays span {
+    color: #979797 !important;
+}
+
+footer input.form-control {
+    background-color: #3b474f !important;
+    border: 1px solid #5b6870 !important;
+    color: #000000 !important;
+}
+
+#bnplButton {
+    background-color: #00578e !important;
+}
+body #bnplButton > p, body #bnplButton > span {
+    color: #d8d8d8 !important;
+}
+
+.text-onsale {
+    color: #539d58!important;
+}
