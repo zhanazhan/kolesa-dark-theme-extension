@@ -66,8 +66,9 @@ input[type=date], input[type=datetime-local], input[type=datetime], input[type=e
 ._small._rounded-arrow.reviews__empty-icon, .dialog._window-full ._small._rounded-arrow.dialog__close, .dialog._window-full ._small._rounded-arrow.nav__sub-close, .dialog._window-full ._small.dialog__close.tree__item._expandable:before, .dialog._window-full ._small.tree__item._expandable.nav__sub-close:before, .tree._spoiler ._small._rounded-arrow.tree__item._expanded:before, .tree._spoiler .tree__item._expandable>.tree__item._expanded.tree__item-arrow:before, .tree._spoiler .tree__item._expanded._expandable:before, .tree__item._expandable:before, .tree__item._expandable>.tree__item-arrow, .tree__item._expandable>.tree__item._expandable.tree__item-arrow:before {
     filter: invert(0.7)!important;
 }
-.filters__filter-row._active, .js .select__hidden-select:focus~.filters__filter-row.select__title {
-    color: #d1d1d1 !important;
+
+.rating:after {
+    filter: invert(0.9)!important;
 }
 
 .item-card__prices-price, .item__price-once {
