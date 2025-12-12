@@ -22,7 +22,11 @@ body, html {
 }
 
 button {
-    color: #acacac!important;
+    color: #acacac;
+}
+
+button:hover {
+    color: #e52d2d;
 }
 
 .category-item {
@@ -271,9 +275,9 @@ tr {
     border-bottom: 1px dashed #bdbdbe!important;
 }
 
-.button, .catalog-slider__main-button, .offer-selection__tab, .offer-selection__tab:last-child {
-    background: #6f6f6f!important;
-    color: #bdbdbe!important;
+body .button, body .catalog-slider__main-button, body .offer-selection__tab, body .offer-selection__tab:last-child {
+    background: #6f6f6f;
+    color: #bdbdbe;
 }
 
 .search-bar__logo {
