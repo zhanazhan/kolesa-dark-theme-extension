@@ -22,11 +22,11 @@ a {
     background-color: #35393c !important;
 }
 
-.navbar .dropdown-menu {
+body .navbar .dropdown-menu {
     background-color: #35393c !important;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+body .navbar-dark .navbar-nav .nav-link {
     color: #a0abb1 !important;
 }
 
@@ -38,9 +38,40 @@ a {
     background-color: #303030 !important;
 }
 
-.maincard, .row-sort {
-    background-color: #1f1f1f !important;
-    color: #b2b2b2 !important;
+body .maincard, body .row-sort {
+    background-color: #1f1f1f;
+    color: #b2b2b2;
+    border-bottom: 3px solid #2d2d2d;
+}
+
+body .col-mcard3 {
+    border-left: 1px solid #2d2d2d;
+}
+
+body .btn-danger {
+    background: unset;
+    border: 3px solid #737172;
+    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    color: #b5b2b2 !important;
+}
+
+body .btn-danger:hover {
+    background-color: #6c404a;
+    border-color: #be1c41;
+    color: black !important;
+}
+
+body .inner-content .img-fluid {
+    filter: invert(1);
+}
+
+body .maincard:hover .img-fluid {
+    filter: invert(0);
+}
+
+body .btn-sort {
+    background-color: #3d3d3d;
+    color: #aaabab;
 }
 
 ul.card-buy-list li {
@@ -170,8 +201,29 @@ img[src$="svg"] {
 }
 
 .left-nav-filters {
-    background-color: #266424!important;
+    background-color: #093a08!important;
     border: 1px solid #78a086!important;
+}
+
+body .bg-blue {
+    background-color: #0b6faf;
+    color: #2b2b2b;
+}
+
+body .badge-info {
+    color: #c3c6c9!important;
+    background-color: #093a08;
+    border: 1px solid #78a086;
+}
+
+body .blue, body .price {
+    color: #4CAF50;
+}
+
+body h5.card-title a, .h5.card-title a {
+    color: #bcbcbc !important;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 .pulser__manufacturer-filter-head {
@@ -319,4 +371,127 @@ body #bnplButton > p, body #bnplButton > span {
 
 .text-onsale {
     color: #539d58!important;
+}
+
+ul.dotted li {
+    background-image: linear-gradient(to right, #555656 20%, rgba(255, 255, 255, 0) 20%)!important;
+}
+
+body #mainNav .nav-item a.nav-link.nav-top {
+    color: #a5a5a5 !important;
+}
+
+body #mainNav img.icon, body header .img-fluid {
+    filter: invert(0.5);
+}
+
+body .head_cart .badge {
+    color: #000000;
+    background: #59995e;
+}
+
+body .btn-block, body .mini-cart-buttons-holder h6, body .mini-cart-buttons-holder .h6 {
+    color: #a5a5a5 !important;
+}
+
+body .nav-cat li a:hover {
+    background: #171717 !important;
+    text-shadow: unset !important;
+}
+
+body .custom-control-label::before {
+    background-color: #383232;
+}
+
+body .form-control {
+    color: #171717 !important;
+    background-color: #919191!important;
+    border: 1px solid #ced4da!important;
+}
+
+/* === Dark theme overrides (merged) === */
+
+body .comparison {
+    background-color: #12161B;
+    color: #B5C2CF;
+}
+
+body .comparison td,
+body .comparison th {
+    color: #B5C2CF;
+}
+
+.compare-heading {
+    color: #E1E8EF;
+}
+
+body .comparison tr td:first-child {
+    color: #E1E8EF;
+}
+
+body .comparison .price-info a {
+    color: #B5C2CF;
+}
+
+body .comparison .compare-price {
+    color: #c4c24d;
+    text-shadow: none;
+}
+
+body .comparison tr.sticky-compare-top th {
+    background: linear-gradient(
+            0deg,
+            #2A3036 2%,
+            #1E242A 2%,
+            #12161B 39%
+    );
+}
+
+body .comparison table thead > tr.sticky-compare-top th {
+    background-color: #12161B;
+}
+
+body tr.compare-top th.compare-heading,
+body tr.sticky-compare-top th {
+    border-color: #2A3036;
+}
+
+body .comparison button.close {
+    background-color: #1E242A;
+    color: #B5C2CF;
+}
+
+/* === Nav pills === */
+
+body .nav-pills .nav-link.active,
+body .nav-pills .show > .nav-link {
+    color: #E1E8EF;
+    background-color: #1E242A;
+}
+
+body .nav-pills .nav-link:hover {
+    background-color: #1E242A;
+}
+
+/* === Mobile-specific dark overrides === */
+
+@media (max-width: 767px) {
+    body .comparison tbody tr:nth-child(odd) {
+        background-color: #1A2026;
+    }
+}
+
+body .btn-secondary {
+    color: #fff!important;
+    background-color: #026335!important;
+    border-color: #64b08c!important;
+}
+
+body .btn-outline-info {
+    color: #a2b8c5;
+    border-color: #626363;
+}
+
+body footer>div.container>div.row>div:nth-child(2) {
+    background-color: #795548;
 }
