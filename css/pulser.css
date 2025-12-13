@@ -381,6 +381,14 @@ body #mainNav .nav-item a.nav-link.nav-top {
     color: #a5a5a5 !important;
 }
 
+body #mainNav .nav-item a.nav-link.nav-top:hover,
+body #mainNav .nav-item a.nav-link.nav-top:active,
+body #mainNav .nav-item a.nav-link.nav-top.active {
+    background-color: #59995e;
+    text-shadow: unset !important;
+    color: #000000 !important;
+}
+
 body #mainNav img.icon, body header .img-fluid {
     filter: invert(0.5);
 }
@@ -506,4 +514,25 @@ body nav.navbar {
 
 body a.mcardicon:hover svg, body a .media:hover svg.icon-addon {
     fill: #2ea14b;
+}
+
+body .bg-order {
+    background-color: #202020;
+}
+
+body .bg-order a, body .bg-order p {
+    font-weight: 500;
+}
+
+body .bg-order p + small {
+    color: #469b5e;
+    font-size: 17px;
+}
+
+body section.orderlist span {
+    border-bottom: 1px dotted #494949;
+}
+
+body .ad_horiz {
+    display: none!important;
 }

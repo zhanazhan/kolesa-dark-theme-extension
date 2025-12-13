@@ -125,6 +125,22 @@ tr {
     border: 1px solid #6e6b6b!important;
 }
 
+body .offer-selection, body  .item-content__inner, body  .merchant-profile__inner, body  .reviews__inner, body  .specifications-list {
+    border: 1px solid #6e6b6b;
+}
+
+body .item-content__el-heading, body .sellers-table__header {
+    border-bottom: 1px solid #6e6b6b;
+}
+
+body .specifications-list__specs, body .specifications-list__term, body .sellers-table__cell {
+    border-top: 1px solid #6e6b6b;
+}
+
+body .specifications-list__header:after {
+    background: unset;
+}
+
 .item__sku {
     color: #999;
     background: unset!important;
