@@ -482,7 +482,7 @@ body .nav-pills .nav-link:hover {
 }
 
 body .btn-secondary {
-    color: #fff!important;
+    color: #ececec !important;
     background-color: #026335!important;
     border-color: #64b08c!important;
 }
@@ -494,4 +494,16 @@ body .btn-outline-info {
 
 body footer>div.container>div.row>div:nth-child(2) {
     background-color: #795548;
+}
+
+body ul.card-buy-list {
+    border-bottom: 2px dotted #656a6c;
+}
+
+body nav.navbar {
+    border-top: 7px solid #2ea14b;
+}
+
+body a.mcardicon:hover svg, body a .media:hover svg.icon-addon {
+    fill: #2ea14b;
 }
