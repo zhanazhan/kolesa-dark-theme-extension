@@ -22,7 +22,11 @@ body, html {
 }
 
 button {
-    color: #acacac!important;
+    color: #acacac;
+}
+
+button:hover {
+    color: #e52d2d;
 }
 
 .category-item {
@@ -123,22 +127,6 @@ tr {
     background: #494646!important;
     color: #e5e5e5!important;
     border: 1px solid #6e6b6b!important;
-}
-
-body .offer-selection, body  .item-content__inner, body  .merchant-profile__inner, body  .reviews__inner, body  .specifications-list {
-    border: 1px solid #6e6b6b;
-}
-
-body .item-content__el-heading, body .sellers-table__header {
-    border-bottom: 1px solid #6e6b6b;
-}
-
-body .specifications-list__specs, body .specifications-list__term, body .sellers-table__cell {
-    border-top: 1px solid #6e6b6b;
-}
-
-body .specifications-list__header:after {
-    background: unset;
 }
 
 .item__sku {
@@ -287,9 +275,9 @@ body .specifications-list__header:after {
     border-bottom: 1px dashed #bdbdbe!important;
 }
 
-.button, .catalog-slider__main-button, .offer-selection__tab, .offer-selection__tab:last-child {
-    background: #6f6f6f!important;
-    color: #bdbdbe!important;
+body .button, body .catalog-slider__main-button, body .offer-selection__tab, body .offer-selection__tab:last-child {
+    background: #6f6f6f;
+    color: #bdbdbe;
 }
 
 .search-bar__logo {
@@ -375,17 +363,4 @@ body .specifications-list__header:after {
 
 .filters__spoiler:hover {
     color: #80bddd!important;
-}
-
-._search.tree__item._expandable:before, ._small._search.reviews__empty-icon, .dialog._window-full ._small._search.dialog__close, .dialog._window-full ._small._search.nav__sub-close, .icon._small._search, .tree._spoiler ._search.tree__item._expanded._expandable:before, .tree._spoiler ._small._search.tree__item._expanded:before, .tree._spoiler .tree__item._expandable>._search.tree__item._expanded.tree__item-arrow:before, .tree__item._expandable>._search.tree__item-arrow {
-    filter: invert(1);
-}
-
-body .modal {
-    background: #313030!important;
-}
-
-body .city-picker-item_selected {
-    background: #ffd300;
-    color: #000000 !important;
 }
