@@ -536,3 +536,73 @@ body section.orderlist span {
 body .ad_horiz {
     display: none!important;
 }
+
+body .pulser__not-found-block {
+    background: #000000;
+}
+
+body .pulser__not-found-descr-head, body .pulser__not-found-descr {
+    color: #8f8f8f;
+}
+
+body .pulser__not-found-descr-link {
+    color: #287a3e !important;
+}
+
+body .teal_block {
+    background-color: #13232a;
+}
+
+body .schedule-dark, body .schedule-lighter {
+    color: #e2e2e2;
+}
+
+body .text-secondary {
+    color: #bf753a !important;
+}
+
+body .alert-info {
+    color: #a4a5a5;
+    background-color: #232323;
+    border-color: #494a4a;
+}
+
+body .nav.nav-up1 a.nav-link:hover, body .nav.nav-up1 a.nav-link:active {
+    background-color: #2e3030;
+    border-bottom: 3px solid #32922d;
+}
+
+body .profileblock {
+    background-color: #066594;
+    color: #bfc8ce;
+}
+
+body a.bluelink, body a.bluelink:visited {
+    color: #bfc8ce!important;
+    padding-top: 30px!important;
+    font-size: 14px!important;
+    display: block;
+}
+
+body .h-nav {
+    border-bottom: 5px solid #2a2a2a;
+}
+
+body p.card-text {
+    color: #8baec3;
+}
+
+body .card-deck.card-tiles .card:hover {
+    border: 1px solid #5c5c5c;
+    box-shadow: unset;
+}
+
+body .card-sale .card {
+    border: 1px solid #5c5c5c;
+}
+
+
+body .card-sale .card:hover {
+    border: 1px solid #FF6666;
+    box-shadow: unset;
+}
