@@ -57,8 +57,8 @@ body .btn-danger {
 
 body .btn-danger:hover {
     background-color: #6c404a;
-    border-color: #be1c41;
-    color: black !important;
+    border-color: #a5707b;
+    color: #b5b2b2 !important;
 }
 
 body .inner-content .img-fluid {
