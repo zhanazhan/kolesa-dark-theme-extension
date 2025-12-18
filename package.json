@@ -1,0 +1,13 @@
+{
+  "name": "midnight-theme",
+  "private": true,
+  "version": "1.0.0",
+  "description": "my private theme",
+  "license": "MIT",
+  "scripts": {
+    "archive": "node scripts/packager.js"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1"
+  }
+}
