@@ -55,7 +55,18 @@ button:hover {
     background: #444242!important;
 }
 
-.navigation__item:hover, .navigation-sub-menu, .navigation__sub-menu-wrapper, .nav__sub-content, .nav__flex-content {
+.search-bar__shop-link {
+    background: #636363!important;
+    border: 1px solid #636363!important;
+}
+
+body .navigation__item {
+    border-right: 1px solid #636363!important;
+    border-top: 1px solid #636363!important;
+    border-left: 1px solid #636363!important;
+}
+
+body .navigation__item:hover, body .navigation-sub-menu, body .navigation__sub-menu-wrapper, body .nav__sub-content, body .nav__flex-content {
     background: #3c3c3c !important;
 }
 
@@ -261,25 +272,47 @@ tr {
     filter: invert(1);
 }
 
+.navigation-all__list li:hover a {
+    color: #0c0c0c!important;
+}
+
 .link, a, .current-location__city, .tabs-content__tab {
     color: #bdbdbe!important;
 }
+
+.navigation-all__list-item-sub-nodes .navigation-sub-menu__grid li a, .navigation-all__list-item-sub-nodes .navigation-sub-menu__single-items li a {
+    color: #bdbdbe!important;
+}
+
+.link, a, .current-location__city, .tabs-content__tab {
+    color: #bdbdbe!important;
+}
+
 .select__list-item {
     color: #afafaf !important;
 }
+
 .select__list-item:hover {
     background: #6f6f6f!important;
     color: #bdbdbe!important;
 }
+
 .select__list-item._selected {
     color: #bdbdbe!important;
 }
-.select__list-item._selected::before {
+
+.select__list-item._selected::before, .main-banner .svg-icon svg, .footer__extra-wrapper .svg-icon svg {
     filter: invert(1);
 }
+
 .js .select__hidden-select:focus~.select__title:after, .select__title:after {
     background: #201f1f!important;
 }
+
+.categories-slider__controls-prev, .categories-slider__controls-next {
+    background: #6f6f6f!important;
+}
+
 .select__list {
     box-shadow: unset!important;
 }
@@ -385,4 +418,52 @@ body .button, body .catalog-slider__main-button, body .offer-selection__tab, bod
 
 .filters__spoiler:hover {
     color: #80bddd!important;
+}
+
+body .modal {
+    background: #060606!important;
+    border: 1px solid #565454!important;
+}
+
+body .modal a {
+    color: #acacac!important;
+    padding-left: 4px;
+}
+
+
+body .modal a.city-picker-item_selected {
+    color: #000000!important;
+    padding-left: 4px;
+    font-weight: 400;
+}
+
+/* Style the scrollbar track (the area the scrollbar slides within) */
+div.city-picker__lists::-webkit-scrollbar-track {
+    background-color: #acacac; /* Track color */
+    border-radius: 10px;
+}
+
+/* Style the scrollbar thumb (the draggable part of the scrollbar) */
+div.city-picker__lists::-webkit-scrollbar-thumb {
+    background-color: #565454; /* Thumb color */
+    border-radius: 10px;
+}
+
+/* Hover effect on the scrollbar thumb */
+div.city-picker__lists::-webkit-scrollbar-thumb:hover {
+    background-color: #383838; /* Thumb color on hover */
+}
+
+body .topbar-navigation__item:hover .topbar-navigation__item-title {
+    color: #fff!important;
+}
+
+body .topbar-navigation__item .topbar-navigation-item-group__item-list-item:hover a {
+    color: #2d8743 !important;
+}
+
+body .topbar-navigation-item-group {
+    background-color: #383838!important;
+    box-shadow: unset!important;
+    color: #acacac!important;
 }
