@@ -7,7 +7,7 @@
   "scripts": {
     "release:major": "git diff --quiet && npm version major && git push && git push --tags && npm run archive",
     "release:minor": "git diff --quiet && npm version minor && git push && git push --tags && npm run archive",
-    "release:patch": "git diff --quiet && npm version patch && git push && git push --tags && npm run archive",
+    "release:patch": "git diff --quiet && npm version patch && npm run archive && git add manifest.json && git commit -m \"chore: update version\" && git push --follow-tags",
     "archive": "node scripts/packager.js"
   },
   "devDependencies": {

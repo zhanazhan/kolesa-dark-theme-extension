@@ -2,7 +2,6 @@ const fs = require('fs');
 const archiver = require('archiver');
 const path = require('path');
 
-// Paths
 const rootDir = path.join(__dirname, '..');
 const pkgPath = path.join(rootDir, 'package.json');
 const manifestPath = path.join(rootDir, 'manifest.json');
@@ -13,32 +12,26 @@ const outputPath = path.join(rootDir, zipFileName);
 // Read version from package.json
 const { version } = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
 
-// Read and patch manifest.json
-const originalManifest = fs.readFileSync(manifestPath, 'utf8');
-const manifest = JSON.parse(originalManifest);
+// Read and update manifest.json
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 manifest.version = version;
 
-// Write patched manifest
+// Persist change in repo
 fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+console.log(`manifest.json updated to version ${version}`);
 
-// Clean up old zip
+// Remove old zip
 try {
   fs.unlinkSync(outputPath);
-  console.log(`Previous ${zipFileName} removed successfully.`);
-} catch {
-  console.log('No previous zip to remove.');
-}
+  console.log(`Previous ${zipFileName} removed.`);
+} catch {}
 
 // Create zip
 const output = fs.createWriteStream(outputPath);
 const archive = archiver('zip', { zlib: { level: 9 } });
 
 output.on('close', () => {
-  console.log(`${zipFileName} created. Total bytes: ${archive.pointer()}`);
-
-  // Restore original manifest
-  fs.writeFileSync(manifestPath, originalManifest);
-  console.log('manifest.json restored.');
+  console.log(`${zipFileName} created. Bytes: ${archive.pointer()}`);
 });
 
 archive.on('error', (err) => { throw err; });
