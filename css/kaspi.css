@@ -462,13 +462,35 @@ body .topbar-navigation__item .topbar-navigation-item-group__item-list-item:hove
     color: #2d8743 !important;
 }
 
-body .topbar-navigation-item-group {
-    background-color: #383838!important;
+body .topbar-navigation-item-group, body .search-bar__submit-button {
+    background-color: #000000!important;
     box-shadow: unset!important;
     color: #acacac!important;
     border: 1px solid #565454!important;
 }
 
+body .search-bar__submit-button:hover {
+    background-color: #383838 !important;
+    border: 1px solid #acacac!important;
+}
+
 body .navigation-all__list-item_active .navigation-all__list-link span {
     color: #383838!important;
+}
+
+body .option-container {
+    background-color: #272727;
+    /* border: 1px solid #8b8b8b;*/
+}
+
+body .option-item:not(._selected):hover {
+    background: #384867;
+}
+
+body .option-item:not(._selected):hover {
+    background: #384867;
+}
+
+body .option-item:not(._selected):hover .option-item__content._available {
+    color: #bfbfbf !important;
 }
