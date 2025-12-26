@@ -62,7 +62,7 @@ body .btn-danger:hover {
 }
 
 body .inner-content .img-fluid {
-    filter: invert(1);
+    filter: invert(0);
 }
 
 body .maincard:hover .img-fluid {
@@ -666,4 +666,8 @@ body .card-link + .card-link {
 
 body .card-header:first-child {
     color: #8c8c8c;
+}
+
+body .nav.nav-up2 a.nav-link.pricelist:hover {
+    box-shadow: inset 0 0 0 1px #5d5d5d;
 }
