@@ -494,3 +494,11 @@ body .option-item:not(._selected):hover {
 body .option-item:not(._selected):hover .option-item__content._available {
     color: #bfbfbf !important;
 }
+
+body .main-banner__image {
+    background-color: #27a3a7 !important;
+}
+
+body .main-banner__image img, body .category-item__image img {
+    filter: invert(0.8) !important;
+}
