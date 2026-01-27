@@ -1340,3 +1340,20 @@ h1.page-title, h1.entry-title {
 .related-item {
     background-color: inherit!important;
 }
+
+body .car-history-aside, body .a-car-history {
+    background: #101010;
+}
+
+body .a-labels li span.a-label {
+    color: #b3b5b7!important;
+    background-color: #4c341f!important;
+}
+
+body .a-car-history__body {
+    background-color: #303030;
+}
+
+body .car-history-b {
+    background-color: #383838;
+}
