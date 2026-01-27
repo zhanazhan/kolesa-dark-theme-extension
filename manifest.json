@@ -2,7 +2,7 @@
   "author": "Jake, Inc.",
   "name": "Midnight Mode",
   "description": "Dark theme and cleaner pages for popular Kazakh websites. Enhances readability and removes distracting on-page clutter.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "manifest_version": 3,
   "icons": {
     "16": "icons/night-mode-16.png",
