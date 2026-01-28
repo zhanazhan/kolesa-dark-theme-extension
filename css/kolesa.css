@@ -1357,3 +1357,34 @@ body .a-car-history__body {
 body .car-history-b {
     background-color: #383838;
 }
+
+body .reviews-page {
+    color: #919191;
+}
+
+body .review-item__show-full-review-button {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, #191919 30%, #181818);
+    color: #548ccd;
+}
+
+body .kl-ui-button--white-darkest {
+    background-color: #000000;
+}
+
+body .reviews-placeholder-modal__content {
+    background: #2d2d2d;
+}
+
+body .a-credit-period__label {
+    background-color: #7eb6dc!important;
+}
+
+body .a-credit-period__label:has(input:checked) {
+    background-color: #1a7beb!important;
+    color: #242933!important;
+}
+
+body .kl-ui-button--kaspi {
+    background-color: #aa5c54;
+    color: #000000;
+}
