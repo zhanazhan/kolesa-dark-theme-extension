@@ -1347,7 +1347,7 @@ body .car-history-aside, body .a-car-history {
 
 body .a-labels li span.a-label {
     color: #b3b5b7!important;
-    background-color: #4c341f!important;
+    background-color: #1d5ba6 !important;
 }
 
 body .a-car-history__body {
@@ -1387,4 +1387,12 @@ body .a-credit-period__label:has(input:checked) {
 body .kl-ui-button--kaspi {
     background-color: #aa5c54;
     color: #000000;
+}
+
+body .related__title a {
+    color: #787878;
+}
+
+body .offer__in-archive a {
+    color: #2d2d2e;
 }
